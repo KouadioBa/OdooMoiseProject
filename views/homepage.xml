@@ -1,0 +1,1198 @@
+<odoo>
+  <data>
+    <template id="simple_theme_assets" name="simple" inherit_id="website.assets_frontend">
+      <xpath expr="//link[last()]" position="after">
+        <!-- custom css -->
+        <link rel="stylesheet" href="open_moise/static/css/style.css" />
+        <link rel="stylesheet" href="open_moise/static/css/style1.css" />
+        <!-- Bootstrap icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+        <!--        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+        <!-- Custom font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&amp;display=swap" rel="stylesheet" />
+        <!-- Responsive page -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--JavaScript-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+          crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+          integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+          crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+          integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+          crossorigin="anonymous"></script>
+      </xpath>
+    </template>
+
+    <record id="homepage_view_1" model="ir.ui.view">
+      <field name="name">Open Moise</field>
+      <field name="type">qweb</field>
+      <field name="key">website.homepage1</field>
+      <field name="mode">primary</field>
+      <field name="active">True</field>
+      <field name="arch" type="xml">
+
+        <t name="Homepage" t-name="website.homepage1">
+          <t t-call="website.layout">
+            <t t-set="pageName" t-value="'homepage'" />
+            <div id="wrapwrap" class="oe_structure oe_empty">
+
+              <body>
+                <!-- Header -->
+                <header class="header-blue">
+
+                  <div class="container zero_container">
+                    <div class="row">
+                      <div class="col-2">
+                        <img class="logo_navigation" src="/open_moise/static/images/Open Noir.png" height="70"
+                          alt="Open Moise" />
+                      </div>
+                      <div class="col-2"></div>
+                      <div class="col-8">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="space" style="    width: 100%;
+                        margin-left: 30%;
+                        background: none;">
+                          <div class="container-fluid fluidding">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                              aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                  <a class="nav-link active" id="liens_bar_navigation" aria-current="page"
+                                    href="#">Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link active" id="liens_bar_navigation" aria-current="page" href="#">à
+                                    propos</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link active" id="liens_bar_navigation" aria-current="page"
+                                    href="#">Produits</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link active" id="liens_bar_navigation" aria-current="page" href="#">Open
+                                    Moise</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link active" id="liens_bar_navigation" aria-current="page"
+                                    href="#">Accessoires</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link active" id="liens_bar_navigation" aria-current="page"
+                                    href="#">FAQ</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link active" id="liens_bar_navigation" aria-current="page"
+                                    href="#">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link active" id="lien_precommander" aria-current="page"
+                                    href="#">Précommander</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a id="lien_enregistrer_connecter" class="nav-link active" aria-current="page"
+                                    href="#">Se
+                                    connecter / <br /> s'enregistrer <i class="bi bi-arrow-right"></i></a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </nav>
+                      </div>
+                    </div>
+                  </div>
+
+                </header>
+                <!-- section_Acceuil-->
+                <section class="first_section">
+                  <div class="first_section_img">
+                    <div class="container un_container">
+                      <div class="row">
+                        <div class="col-7">
+                          <p class="signature">Plus qu'un smartphone</p>
+                          <h3 class="superĥone">Un SuperPhone</h3>
+                          <h2 class="generation"><img src="/open_moise/static/images/OPEN_GENERATION.png" height="160px"
+                              alt="open moise" />
+                          </h2>
+                          <div class="row" id="row_price">
+                            <div class="col-md-6">
+                              <p class="prix1">60 000 <span style="font-size: 30px;">Fcfa</span></p>
+                            </div>
+                            <div class="col">
+                              <p class="prix2"><strike>110 000</strike> <span style="font-size: 30px;">Fcfa</span></p>
+                            </div>
+                          </div>
+                          <div class="row" id="row_precommande">
+                            <div class="col">
+                              <p class="precommander">Précommander</p>
+                            </div>
+                            <div class="col"></div>
+                          </div>
+                          <p class="savoir_plus">En apprendre plus <i class="bi bi-arrow-down-circle"></i></p>
+                        </div>
+                        <div class="col-4" style="margin-top: -95px;">
+                          <img src="/open_moise/static/images/openGMockup.png" height="800px" class="double_phone" />
+                        </div>
+                        <div class="col-1"></div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- section_vidéo_open -->
+                <section>
+                  <div class="image2_back">
+                    <iframe id="iframee" width="100%" height="600px" src="https://www.youtube.com/embed/cnXapYkboRQ"
+                      title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen="allowfullscreen"></iframe>
+                  </div>
+                </section>
+                <!-- section_5_révolution_en_un_open -->
+                <section class="three_section">
+                  <div class="text_section_three1">
+                    <h2>5 Révolutions en 1</h2>
+                    <p>Le Super Phone ce n'est pas 1 innovation mais 5</p>
+                  </div>
+                  <div class="text_section_three2">
+                    <div class="container">
+                      <div class="container-fluid mb-4">
+                        <div class="row justify-content-center row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+                          <div class="col mt-4">
+                            <div class="card card_revolution">
+                              <img src="/open_moise/static/images/picture1d8f9ee43.png" id="img_icon_revolution"
+                                style="margin: 0 auto;" alt="..." />
+                            </div>
+                            <div class="text_cards">
+                              <h3 class="text_cards_h3">Commandes vocales en langues locales</h3>
+                            </div>
+                          </div>
+                          <div class="col mt-4">
+                            <div class="card card_revolution">
+                              <img src="/open_moise/static/images/picture2b7798c00.png" id="img_icon_revolution"
+                                style="margin: 0 auto;" alt="..." />
+                            </div>
+                            <div class="text_cards">
+                              <h3 class="text_cards_h3">Super Application et Agent Intélligent</h3>
+                            </div>
+                          </div>
+                          <div class="col mt-4">
+                            <div class="card card_revolution">
+                              <img src="/open_moise/static/images/picture34b83b3d8.png" id="img_icon_revolution"
+                                style="margin: 0 auto;" alt="..." />
+                            </div>
+                            <div class="text_cards">
+                              <h3 class="text_cards_h3">Paiement eCommerce 3 Prix pour tout produits</h3>
+                            </div>
+                          </div>
+                          <div class="col mt-4">
+                            <div class="card card_revolution">
+                              <img src="/open_moise/static/images/picture4e3c4deb5.png" id="img_icon_revolution"
+                                style="margin: 0 auto;" alt="..." />
+                            </div>
+                            <div class="text_cards">
+                              <h3 class="text_cards_h3">Gamification du client et Missions pour s'améliorer</h3>
+                            </div>
+                          </div>
+                          <div class="col mt-4">
+                            <div class="card card_revolution">
+                              <img src="/open_moise/static/images/picture5.png" id="img_icon_revolution"
+                                style="margin: 0 auto;" alt="..." />
+                            </div>
+                            <div class="text_cards">
+                              <h3 class="text_cards_h3">Interaction avec un environnement et actions automatisées</h3>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- section_votre_smartphone_open -->
+                <section class="four_section">
+                  <div class="four_section_img" style="width: 100%;height: auto;">
+                    <div class="container" style="padding-top: 77px;">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <img class="img_section_four" src="/open_moise/static/images/picture1d8f9ee43.png" />
+                          <h3>Votre Super phone</h3>
+                          <h1>vous comprend.</h1>
+                          <p>Commandez des actions et discutez avec
+                            votre superĥone dans votre langue natale :</p>
+                          <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                              <h5>Français Accent Ivoirien</h5>
+                            </div>
+                            <div class="col">
+                              <h5>Français de France</h5>
+                            </div>
+                            <div class="col">
+                              <h5>Anglais</h5>
+                            </div>
+                          </div>
+                          <br />
+                          <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                              <h5>Baoulé</h5>
+                            </div>
+                            <div class="col">
+                              <h5>Dioula</h5>
+                            </div>
+                            <div class="col">
+                              <h5>Arabe</h5>
+                            </div>
+                          </div>
+                          <br />
+                          <div class="row row-cols-1 row-cols-md-3 g-4" style="padding-bottom: 21px;">
+                            <div class="col">
+                              <h5>Fon</h5>
+                            </div>
+                            <div class="col">
+                              <h5>Wolof</h5>
+                            </div>
+                            <div class="col">
+                              <h5>Autres à venir</h5>
+                            </div>
+                          </div>
+                          <br />
+                          <div class="row row-cols-1 row-cols-md-3 g-4" style="padding-bottom: 21px;">
+                            <div class="col">
+                              <a href="#" class="precommander_open_G">Précommander Open Génération</a>
+                            </div>
+                            <div class="col">
+                              <a href="#" class="apprendre_plus">En apprendre plus <i
+                                  class="bi bi-chevron-right"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6" id="img_bg_one">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="filigramme_texte">
+                    <h1>01</h1>
+                  </div>
+                </section>
+                <!-- section_1_super_app -->
+                <section class="five_section">
+                  <div class="div_section">
+                    <div class="image_moise">
+                      <p>
+                        <img id="img_open_moise_noire" src="/open_moise/static/images/OpenMOISE Noir.png" />
+                      </p>
+                    </div>
+                    <div class="une_super_app">
+                      <h1>1 Super App</h1>
+                    </div>
+                    <div class="application_intelligent">
+                      <p>Des applications intélligentes pour TOUS vos besoins</p>
+                    </div>
+                    <div class="play_app_store">
+                      <div class="d-flex justify-content-center">
+                        <div class="p-2 bd-highlight">
+                          <img id="img_googlePlayBadge137350d57"
+                            src="/open_moise/static/images/googlePlayBadge137350d57.png" height="122px" />
+                        </div>
+                        <div class="p-2 bd-highlight">
+                          <img id="img_image253fcb51" src="/open_moise/static/images/image253fcb51.png" height="80px" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="je_veux">
+                      <h1>Dites juste<br /><span>Je veux...</span>
+                      </h1>
+                    </div>
+                  </div>
+                  <div class="image_phones">
+                    <div class="row"
+                      style="font-size: 30px;font-family: gotham_ultraitalic;margin-right: 10px;margin-left: 10px;">
+                      <div class="col">
+                        <p style="font-family: gotham_ultraitalic;
+                        margin-top: 116px;font-size: 28px;color: #9f93b7;">Me déplacer</p>
+                      </div>
+                      <div class="col">
+                        <p style="font-family: gotham_ultraitalic;
+                        margin-top: 50px;font-size: 31px;color: #9f93b7;">Acheter</p>
+                      </div>
+                      <div class="col">
+                        <p style="font-family: gotham_ultraitalic;
+                        margin-top: 134px;    font-size: 31px;color: #9f93b7;">Manger</p>
+                      </div>
+                      <div class="col">
+                        <p style="font-family: gotham_ultraitalic;
+                        margin-top: 94px;font-size: 31px;color: #9f93b7;">Payer</p>
+                      </div>
+                      <div class="col">
+                        <p style="font-family: gotham_ultraitalic;
+                        margin-top: 29px;font-size: 31px;color: #9f93b7;">TOUT</p>
+                      </div>
+                      <div class="col">
+                        <p style="font-family: gotham_ultraitalic;
+                        margin-top: 163px;font-size: 31px;color: #9f93b7;">écouter</p>
+                      </div>
+                      <div class="col">
+                        <p style="font-family: gotham_ultraitalic;
+                        margin-top: 128px;font-size: 31px;color: #9f93b7;">Réparer</p>
+                      </div>
+                      <div class="col">
+                        <p style="font-family: gotham_ultraitalic;
+                        margin-top: -38px;font-size: 31px;color: #9f93b7;">Contrôler</p>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- Section_Open_Market -->
+                <section class="six_section">
+                  <div class="container" style="padding-top: 20px;">
+                    <div class="row">
+                      <div class="col-md-7">
+                        <img id="img_open_market" src="/open_moise/static/images/openMarketNoirPeche.png" />
+                        <div class="d-flex justify-content-left">
+                          <div class="p-2 bd-highlight">
+                            <h1 class="titre_un_open_market">Acheter</h1>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <h1 class="titre_deux_open_market">Ensemble</h1>
+                          </div>
+                        </div>
+                        <h1 class="titre_trois_open_market">moins cher!</h1>
+                        <p>Achetez
+                          différemment, moins cher et gagne
+                          de l'argent avec Open Market...
+                          <br />Vous bénéficiez de 3 prix: individuelle, de groupe et celui de l'ambassadeur. C'est
+                          également 5 types de livraison dont : en magasin, chez vous et en point de relais en 24h.
+                          <br /> Vous pouvez faire la promotion live de vos produits, payez avec les solutions de
+                          paiments locals. C'est l'avenir du eCommerce.
+                        </p>
+                      </div>
+                      <div class="play_app_store">
+                        <div class="d-flex justify-content-left">
+                          <div class="p-2 bd-highlight">
+                            <img id="img_googlePlayBadge137350d57"
+                              src="/open_moise/static/images/googlePlayBadge137350d57.png" height="122px" />
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <img id="img_image253fcb51" src="/open_moise/static/images/image253fcb51.png"
+                              height="80px" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-left">
+                        <div class="p-2 bd-highlight">
+                          <a href="#" class="precommander_open_G">Précommander Open Génération</a>
+                        </div>
+                        <div class="p-2 bd-highlight">
+                          <a href="#" class="apprendre_plus">En apprendre plus <i class="bi bi-chevron-right"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-md-5"></div>
+                    </div>
+                  </div>
+                </section>
+                <!-- Section_Open_Food -->
+                <section class="seven_section">
+                  <div class="container" style="padding-top: 20px;">
+                    <div class="row">
+                      <div class="col-md-5"></div>
+                      <div class="col-md-7">
+                        <img id="img_open_food" src="/open_moise/static/images/openFoodBlackGreen.png" />
+                        <div class="d-flex justify-content-left">
+                          <div class="p-2 bd-highlight">
+                            <h1 class="titre_un_open_food">Manger</h1>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <h1 class="titre_deux_open_food">Ensemble</h1>
+                          </div>
+                        </div>
+                        <h1 class="titre_trois_open_food">moins cher!</h1>
+                        <p>Achetez
+                          différemment, moins cher et gagne
+                          de l'argent avec Open Market...
+                          <br />Vous bénéficiez de 3 prix: individuelle, de groupe et celui de l'ambassadeur. C'est
+                          également 5 types de livraison dont : en magasin, chez vous et en point de relais en 24h.
+                          <br /> Vous pouvez faire la promotion live de vos produits, payez avec les solutions de
+                          paiments locals. C'est l'avenir du eCommerce.
+                        </p>
+                        <div class="play_app_store">
+                          <div class="d-flex justify-content-left">
+                            <div class="p-2 bd-highlight">
+                              <img id="img_googlePlayBadge137350d57"
+                                src="/open_moise/static/images/googlePlayBadge137350d57.png" height="122px" />
+                            </div>
+                            <div class="p-2 bd-highlight">
+                              <img id="img_image253fcb51" src="/open_moise/static/images/image253fcb51.png"
+                                height="80px" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-left">
+                          <div class="p-2 bd-highlight">
+                            <a href="#" class="precommander_open_G">Précommander Open Génération</a>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <a href="#" class="apprendre_plus">En apprendre plus <i class="bi bi-chevron-right"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- Section_Open_Car -->
+                <section class="heigth_section">
+                  <div class="container" style="padding-top: 20px;">
+                    <div class="row">
+                      <div class="col-md-7">
+                        <img id="img_open_car" src="/open_moise/static/images/openCarBlackYellow.png" />
+                        <h1 class="titre_un_open_car">Partagez votre transport</h1>
+                        <h1 class="titre_deux_open_car">Allez moins cher!</h1>
+                        <p>Achetez
+                          différemment, moins cher et gagne
+                          de l'argent avec Open Market...
+                          <br />Vous bénéficiez de 3 prix: individuelle, de groupe et celui de l'ambassadeur. C'est
+                          également 5 types de livraison dont : en magasin, chez vous et en point de relais en 24h.
+                          <br /> Vous pouvez faire la promotion live de vos produits, payez avec les solutions de
+                          paiments locals. C'est l'avenir du eCommerce.
+                        </p>
+                      </div>
+                      <div class="play_app_store">
+                        <div class="d-flex justify-content-left">
+                          <div class="p-2 bd-highlight">
+                            <img id="img_googlePlayBadge137350d57"
+                              src="/open_moise/static/images/googlePlayBadge137350d57.png" height="122px" />
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <img id="img_image253fcb51" src="/open_moise/static/images/image253fcb51.png"
+                              height="80px" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-left">
+                        <div class="p-2 bd-highlight">
+                          <a href="#" class="precommander_open_G">Précommander Open Génération</a>
+                        </div>
+                        <div class="p-2 bd-highlight">
+                          <a href="#" class="apprendre_plus">En apprendre plus <i class="bi bi-chevron-right"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-md-5"></div>
+                    </div>
+                  </div>
+                </section>
+                <!-- Section_Open_Event -->
+                <section class="nine_section">
+                  <div class="container" style="padding-top: 20px;">
+                    <div class="row">
+                      <div class="col-md-4"></div>
+                      <div class="col-md-8">
+                        <img id="img_open_Event" src="/open_moise/static/images/openEventBlancRose.png" />
+                        <h1 class="titre_un_open_car">Organisez ou participez à des
+                          évènements</h1>
+                        <h1 class="titre_deux_open_car">et Expériance uniques!</h1>
+                        <p>Achetez
+                          différemment, moins cher et gagne
+                          de l'argent avec Open Market...
+                          <br />Vous bénéficiez de 3 prix: individuelle, de groupe et celui de l'ambassadeur. C'est
+                          également 5 types de livraison dont : en magasin, chez vous et en point de relais en 24h.
+                          <br /> Vous pouvez faire la promotion live de vos produits, payez avec les solutions de
+                          paiments locals. C'est l'avenir du eCommerce.
+                        </p>
+                        <div class="play_app_store">
+                          <div class="d-flex justify-content-left">
+                            <div class="p-2 bd-highlight">
+                              <img id="img_googlePlayBadge137350d57"
+                                src="/open_moise/static/images/googlePlayBadge137350d57.png" height="122px" />
+                            </div>
+                            <div class="p-2 bd-highlight">
+                              <img id="img_image253fcb51" src="/open_moise/static/images/image253fcb51.png"
+                                height="80px" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-left">
+                          <div class="p-2 bd-highlight">
+                            <a href="#" class="precommander_open_G">Précommander Open Génération</a>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <a style="color: #fff;" href="#" class="apprendre_plus">En apprendre plus <i
+                                class="bi bi-chevron-right"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- Section_Open_Medecine -->
+                <section class="ten_section">
+                  <div class="container" style="padding-top: 20px;">
+                    <div class="row">
+                      <div class="col-md-9">
+                        <img id="img_open_Event" src="/open_moise/static/images/openMedecineVioletNoir.png" />
+                        <h1 class="titre_un_open_medecine">Partagez votre transport</h1>
+                        <h1 class="titre_deux_open_medecine">L'hôpital en mains!</h1>
+                        <p>Achetez
+                          différemment, moins cher et gagne
+                          de l'argent avec Open Market...
+                          <br />Vous bénéficiez de 3 prix: individuelle, de groupe et celui de l'ambassadeur. C'est
+                          également 5 types de livraison dont : en magasin, chez vous et en point de relais en 24h.
+                          <br /> Vous pouvez faire la promotion live de vos produits, payez avec les solutions de
+                          paiments locals. C'est l'avenir du eCommerce.
+                        </p>
+                        <h2>Bientôt disponible sur :</h2>
+                      </div>
+                      <div class="play_app_store">
+                        <div class="d-flex justify-content-left">
+                          <div class="p-2 bd-highlight">
+                            <img id="img_googlePlayBadge137350d57"
+                              src="/open_moise/static/images/googlePlayBadge137350d57.png" height="122px" />
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <img id="img_image253fcb51" src="/open_moise/static/images/image253fcb51.png"
+                              height="80px" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-left">
+                        <div class="p-2 bd-highlight">
+                          <a href="#" class="precommander_open_G">Précommander Open Génération</a>
+                        </div>
+                        <div class="p-2 bd-highlight">
+                          <a href="#" class="apprendre_plus">En apprendre plus <i class="bi bi-chevron-right"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-md-3"></div>
+                    </div>
+                  </div>
+                </section>
+                <!-- Section_Open_Assistant -->
+                <section class="elven_section">
+                  <div class="container">
+                    <div class="row" style="margin-top: 150px;">
+                      <div class="col-md-9">
+                        <img id="img_open_assistant" src="/open_moise/static/images/openAssistant.png" />
+                        <h1 class="titre_un_open_assistant">
+                          <span>Votre</span> Ami(e) et Agent
+                        </h1>
+                        <h1 class="titre_deux_open_assistant">Intélligent
+                          et
+                          ...expressif!
+                        </h1>
+                        <p>Les
+                          assistants vocaux étaient tous inertes, sans émotions;<br />
+                          Open Assistant est différent : il est expressif et vous comprends.</p>
+
+                        <div class="row" id="row_assistant">
+                          <div class="col-md-9">
+                            <p>il vous rappelle d'allez à l'église
+                            </p>
+                          </div>
+                        </div>
+                        <div class="row" id="row_assistant">
+                          <div class="col-md-9">
+                            <p>il vous aides a surveiller votre
+                              poids et votre alimentation</p>
+                          </div>
+                        </div>
+                        <div class="row" id="row_assistant">
+                          <div class="col-md-9">
+                            <p>il planifie le rendez-vous de
+                              chaque moi avec votre épouse</p>
+                          </div>
+                        </div>
+                        <div class="row" id="row_assistant">
+                          <div class="col-md-9">
+                            <p>il allume vos lampes et climatiseur
+                              à temps</p>
+                          </div>
+                        </div>
+                        <div class="row" id="row_assistant">
+                          <div class="col-md-9">
+                            <p>il vous rappelle d'aller chercher
+                              vos enfants à l'école</p>
+                          </div>
+                        </div>
+                        <div class="row" id="row_assistant">
+                          <div class="col-md-9">
+                            <p>il allume votre macth du vendredi
+                              soir à l'heure</p>
+                          </div>
+                        </div>
+                        <div class="row" id="row_assistant">
+                          <div class="col-md-9">
+                            <p>il rappelle et met dans le panier
+                              la liste récurrente de vos
+                              courses du mois</p>
+                          </div>
+                        </div>
+                        <div class="row" id="row_assistant_un">
+                          <div class="col-md-9">
+                            <p>et il fait tellement d'autres choses
+                              encore ...</p>
+                          </div>
+                        </div>
+                        <div class="play_app_store">
+                          <div class="d-flex justify-content-left">
+                            <div class="p-2 bd-highlight">
+                              <img id="img_googlePlayBadge137350d57"
+                                src="/open_moise/static/images/googlePlayBadge137350d57.png" height="122px" />
+                            </div>
+                            <div class="p-2 bd-highlight">
+                              <img id="img_image253fcb51" src="/open_moise/static/images/image253fcb51.png"
+                                height="80px" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-left">
+                          <div class="p-2 bd-highlight">
+                            <a href="#" class="precommander_open_G">Précommander Open Génération</a>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <a href="#" class="apprendre_plus">En apprendre plus <i class="bi bi-chevron-right"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <img id="img_open_assistant_un" src="/open_moise/static/images/picture1ff452818.png" />
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- Section_Open_Pay -->
+                <section class="towelve_section">
+                  <p class="trois_ratation_un">03</p>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-7">
+                        <img id="img_open_pay" src="/open_moise/static/images/logoopenpaywallet.png" />
+                        <h1 class="titre_un_open_pay">Votre produit a désormais</h1>
+                        <h1 class="titre_deux_open_pay">trois (3) prix !</h1>
+                        <p class="paragraphe_commentaire">N'achetez plus un produit au prix individuelle seulement. Mais
+                          achetez le soit au prix normal,
+                          soit à un tarif réduit si un nombre de personnes de votre groupe (amis, etc ...) achètent le
+                          même produit.
+                          Ou encore achetez au prix ambassadeur gratuitement par tirage au sort.
+                        </p>
+                        <div class="d-flex justify-content-between">
+                          <div class="p-2 bd-highlight">
+                            <h2 class="titre2_open_pay_un">0<span style="font-size: 30px;">%</span></h2>
+                            <p class="titre2_open_pay_un_paragraphe">Prix Individuel</p>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <h2 class="titre2_open_pay_deux">-30 à 40<span style="font-size: 30px;">%</span></h2>
+                            <p class="titre2_open_pay_deux_paragraphe">Prix de Groupe</p>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <h2 class="titre2_open_pay_trois">Gratuit</h2>
+                            <p class="titre2_open_pay_trois_paragraphe">Prix Ambassadeur</p>
+                          </div>
+                        </div>
+                        <div class="play_app_store">
+                          <div class="d-flex justify-content-left">
+                            <div class="p-2 bd-highlight">
+                              <img id="img_googlePlayBadge137350d57"
+                                src="/open_moise/static/images/googlePlayBadge137350d57.png" height="122px" />
+                            </div>
+                            <div class="p-2 bd-highlight">
+                              <img id="img_image253fcb51" src="/open_moise/static/images/image253fcb51.png"
+                                height="80px" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-left">
+                          <div class="p-2 bd-highlight">
+                            <a href="#" class="precommander_open_G">Précommander Open Génération</a>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <a href="#" class="apprendre_plus">En apprendre plus <i class="bi bi-chevron-right"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-5">
+                        <div class="chaussure_basket">
+                          <div class="d-flex justify-content-end">
+                            <div class="p-0 bd-highlight">
+                              <div class="prix_de_chaussure_vert">12 000 <span>Fcfa</span>
+                                <div class="d-flex justify-content-start">
+                                  <div class="p-0 bd-highlight">
+                                    <div class="prix_de_chaussure_vert1"></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="prix_de_chaussure_bleu">20 000 <span>Fcfa</span>
+                            <div class="d-flex justify-content-end">
+                              <div class="p-0 bd-highlight">
+                                <div class="prix_de_chaussure_bleu1"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <p>
+                            <img src="/open_moise/static/images/bbbbb14.png" height="auto" width="100%" />
+                          </p>
+                          <div class="d-flex justify-content-end">
+                            <div class="prix_de_chaussure_jaune">0 <span>Fcfa</span>
+                              <div class="d-flex justify-content-start">
+                                <div class="p-0 bd-highlight">
+                                  <div class="prix_de_chaussure_jaune1"></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- Deuxième_section_open_pay -->
+                <section class="treise_section">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img id="img_open_pay_deux" src="/open_moise/static/images/Groupe 17509.png"
+                          style="margin-top: 100px;" height="auto" width="100%" />
+                      </div>
+                      <di class="col-md-6">
+                        <h1 class="titre_un_open_pay_deux">Payer par QR code pour tout service</h1>
+                        <h1 class="titre_deux_open_pay_deux">dans 1 seule App</h1>
+                        <p class="paragraphe_un_open_pay_deux">Payer des produits par QR Code, bénéficiez d'une carte
+                          bancaire et de
+                          fidélité,
+                          et payer localement avec toutes les solutions locales de paiements a une ou plusieurs
+                          personnes en même temps avec :
+                        </p>
+                        <div class="d-flex justify-content-between">
+                          <div class="p-2 bd-highlight">
+                            <h1 class="titre_trois_open_pay_deux">0<span>%</span></h1>
+                            <p class="paragraphe_deux_open_pay_deux">Dépôt (Cash In)</p>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <h1 class="titre_trois_open_pay_deux">0<span>%</span></h1>
+                            <p class="paragraphe_deux_open_pay_deux">Retrait (Cash Out)</p>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <h1 class="titre_trois_open_pay_deux">0,5<span>%</span></h1>
+                            <p class="paragraphe_deux_open_pay_deux">Transfert</p>
+                          </div>
+                        </div>
+                        <img src="/open_moise/static/images/payments.png" height="auto" width="100%" />
+                        <div class="play_app_store">
+                          <div class="d-flex justify-content-left">
+                            <div class="p-2 bd-highlight">
+                              <img id="img_googlePlayBadge137350d57"
+                                src="/open_moise/static/images/googlePlayBadge137350d57.png" height="122px" />
+                            </div>
+                            <div class="p-2 bd-highlight">
+                              <img id="img_image253fcb51" src="/open_moise/static/images/image253fcb51.png"
+                                height="80px" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-left">
+                          <div class="p-2 bd-highlight">
+                            <a href="#" class="precommander_open_G">Précommander Open Génération</a>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <a href="#" class="apprendre_plus">En apprendre plus <i class="bi bi-chevron-right"></i></a>
+                          </div>
+                        </div>
+                      </di>
+                    </div>
+                  </div>
+                </section>
+                <!-- Section_debut_open_game -->
+                <section class="quatorze_section">
+                  <p class="paragraphe_un_debut_open_game">04</p>
+                  <div class="container">
+                    <h1 class="titre_un_debut_open_game">Accomplissez les missions pour</h1>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h1 class="titre_deux_debut_open_game">Vous améliorer !</h1>
+                        <p class="paragraphe_deux_debut_open_game">Accomplissez des missions chaque jour et par objectif
+                          pour gagner des points
+                          , des cadeaux, des produits, des clients pour votre business, etc ...
+                        </p>
+                        <div class="row">
+                          <div class="col">
+                            <p class="paragraphe_row_debut_open_game">Rechercher des articles à
+                              partir d'une photo ou d'une image
+                            </p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <p class="paragraphe_row_debut_open_game">10 personnes s'inscrivent au
+                              MOISE à partir de votre code de parrainage
+                            </p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <p class="paragraphe_row_debut_open_game">Ajouter un ami par QR code et
+                              envoyer de l'argent à un ami à partir du chat
+                            </p>
+                          </div>
+                        </div>
+                        <div class="play_app_store">
+                          <div class="d-flex justify-content-left">
+                            <div class="p-2 bd-highlight">
+                              <img id="img_googlePlayBadge137350d57"
+                                src="/open_moise/static/images/googlePlayBadge137350d57.png" height="122px" />
+                            </div>
+                            <div class="p-2 bd-highlight">
+                              <img id="img_image253fcb51" src="/open_moise/static/images/image253fcb51.png"
+                                height="80px" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-left">
+                          <div class="p-2 bd-highlight">
+                            <a href="#" class="precommander_open_G">Précommander Open Génération</a>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <a href="#" class="apprendre_plus">En apprendre plus <i class="bi bi-chevron-right"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6"></div>
+                    </div>
+                  </div>
+                </section>
+                <!-- Section_Open_Game_Studio -->
+                <section class="quinsieme_section">
+                  <div style="text-align: center;">
+                    <img class="img_open_game_studio" src="/open_moise/static/images/picture4e3c4deb5.png" />
+                  </div>
+                  <h1 class="titre_un_open_game_studio">Open Game</h1>
+                  <h1 class="titre_deux_open_game_studio">studio</h1>
+                  <h1 class="titre_trois_open_game_studio">Accomplissez des tâches pour vous améliorer<br />
+                    JOUEZ, convertissez les points<br />et gagnez des produits</h1>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-1"></div>
+                      <div class="col-11">
+                        <img src="/open_moise/static/images/logosJeux.png" height="auto" width="100%" />
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- Section_Open_Game_Studio_deux -->
+                <section class="seisieme_section">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col"><img src="/open_moise/static/images/PS.png" height="auto" width="100%" /></div>
+                      <div class="col"><img class="img_open_game_studio_deux"
+                          src="/open_moise/static/images/googlePlayBadge137350d57.png" height="auto" width="100%" />
+                      </div>
+                      <div class="col"><img class="img_open_game_studio_deux"
+                          src="/open_moise/static/images/image253fcb51.png" height="auto" width="100%" /></div>
+                      <div class="col"><img src="/open_moise/static/images/Xbox_(app)-Logo.wine.svg" height="auto"
+                          width="100%" /></div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                      <div class="p-0 bd-highlight"></div>
+                      <div class="p-0 bd-highlight"></div>
+                      <div class="p-0 bd-highlight"></div>
+                      <div class="p-0 bd-highlight"></div>
+                    </div>
+                  </div>
+                  <div class="img_trois_open_game_studio_deux">
+                  </div>
+                </section>
+                <!-- Section_Open_casino -->
+                <section class="dix_sept_section">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="row" style="padding-top: 10px;">
+                          <div class="col-3"><img src="/open_moise/static/images/picture1.png" width="100%"
+                              height="auto" /></div>
+                          <div class="col-3"><img src="/open_moise/static/images/picture2.png" width="100%"
+                              height="auto" /></div>
+                        </div>
+                        <h1 class="titre_open_casion"><img src="/open_moise/static/images/OPEN_blanc.png" height="auto"
+                            width="50%" /> Casino</h1>
+                        <p class="paragraphe_un_open_casion">Jouez et convertissez des points en coupons
+                          de réduction sur les
+                          produits Open Market.
+                        </p>
+                        <div class="play_app_store">
+                          <div class="d-flex justify-content-left">
+                            <div class="p-2 bd-highlight">
+                              <img id="img_googlePlayBadge137350d57"
+                                src="/open_moise/static/images/googlePlayBadge137350d57.png" height="122px" />
+                            </div>
+                            <div class="p-2 bd-highlight">
+                              <img id="img_image253fcb51" src="/open_moise/static/images/image253fcb51.png"
+                                height="80px" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <img class="img_open_casino" src="/open_moise/static/images/Groupe 17508.png" width="100%"
+                          height="auto" />
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- Section_Open_Smart -->
+                <section class="dix_huit_section">
+                  <div class="conatiner">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img class="img_un_open_smart" src="/open_moise/static/images/bbbback.png" />
+                      </div>
+                      <div class="col-md-6">
+                        <img src="/open_moise/static/images/openSmartNoirBleu.png" height="auto" width="90%" />
+                        <h1 class="titre_un_open_smart">Votre <span>environnement</span></h1>
+                        <h1 class="titre_deux_open_smart">Dans vos mains</h1>
+                        <p class="paragraphe_un_open_smart">Contrôler votre environnement avec des actions
+                          semi-automatiques ou
+                          automatiques :
+                          allumez vos lampes, pré régler votre climatisation, programmer la température de votre chambre
+                          dans la nuit ou au réveil,
+                          ouvrez la porte quand la maison détecte une personne enregistrée, ou encore rapellez-vous
+                        </p>
+                        <div class="play_app_store">
+                          <div class="d-flex justify-content-left">
+                            <div class="p-2 bd-highlight">
+                              <img id="img_googlePlayBadge137350d57"
+                                src="/open_moise/static/images/googlePlayBadge137350d57.png" height="122px" />
+                            </div>
+                            <div class="p-2 bd-highlight">
+                              <img id="img_image253fcb51" src="/open_moise/static/images/image253fcb51.png"
+                                height="80px" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-left">
+                          <div class="p-2 bd-highlight">
+                            <a href="#" class="precommander_open_G">Précommander Open Génération</a>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <a href="#" class="apprendre_plus">En apprendre plus <i class="bi bi-chevron-right"></i></a>
+                          </div>
+                        </div>
+                        <p class="paragraphe_deux_open_smart">05</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </section>
+                <!-- Section_chat_Open-->
+                <section class="dix_neuf_section">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h1 class="titre_open_chat">Envoyez, recevez, traduisez<br /><span>vos messages.</span></h1>
+                        <p class="paragraphe_open_chat">Envoyez vous des messages SMS et MS via la messagerie interne,
+                          mais également
+                          envoyez de
+                          l'argent.
+                          émoji, etc ... Open Voice permet également de traduire les messages des réseaux sociaux que
+                          vous etc ...
+                        </p>
+                        <div class="d-flex justify-content-left">
+                          <div class="p-2 bd-highlight">
+                            <a href="#" class="precommander_open_G">Précommander Open Génération</a>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <a href="#" class="apprendre_plus">En apprendre plus <i class="bi bi-chevron-right"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <img class="img_open_chat" src="/open_moise/static/images/Groupe 17507.png" />
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- Section_chat_Open_deux -->
+                <section class="vingt_section">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-6"></div>
+                      <div class="col-md-6">
+                        <h1 class="titre_un_open_chat_deux">Ajouter vos contacts</h1>
+                        <h1 class="titre_deux_open_chat_deux">par QR Code</h1>
+                        <p class="paragraphe_open_chat_deux">Vous avez fait une nouvelle connaissance ? Ajoutez la par
+                          QR
+                          Code générer via l'application
+                          Open MOISE.</p>
+                        <div class="d-flex justify-content-left">
+                          <div class="p-2 bd-highlight">
+                            <a href="#" class="precommander_open_G">Précommander Open Génération</a>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <a href="#" class="apprendre_plus">En apprendre plus <i class="bi bi-chevron-right"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- Section_social_Media -->
+                <section class="vingt_un_section">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h1 class="titre_un_social_media">Construisez votre communauté</h1>
+                        <h1 class="titre_deux_social_media">par le réseau social</h1>
+                        <p class="paragraphe_social_media">Facabook, WhatsApp et Open MOISE ! Oui nous intégrons
+                          également
+                          un réseau social qui vous permet de faire d'innombrables échanges dans la plateforme.<br />
+                          Venez découvrir !</p>
+                        <div class="d-flex justify-content-left">
+                          <div class="p-2 bd-highlight">
+                            <a href="#" class="precommander_open_G">Précommander Open Génération</a>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <a href="#" class="apprendre_plus">En apprendre plus <i class="bi bi-chevron-right"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <img class="img_social_media" src="/open_moise/static/images/memojiPics.png" />
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- Section_Open_Generation_Deux -->
+                <section class="vingt_deux_section">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <img src="/open_moise/static/images/openGMockupfront.png" width="100%" height="auto" />
+                      </div>
+                      <div class="col-md-1"></div>
+                      <div class="col-md-7">
+                        <h1 class="titre_un_open_generation_deux">
+                          <img src="/open_moise/static/images/Open Noir.png" width="30%" height="76" /> Génération
+                        </h1>
+                        <h1 class="titre_deux_open_generation_deux">Le Superphone</h1>
+                        <div class="row">
+                          <div class="col">
+                            <p class="paragraphe_open_generation_deux"><span>Réseau et Données</span>
+                              4G/3G/2G, GPRS/EDGE
+                            </p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <p class="paragraphe_open_generation_deux"><span>Système</span> Android
+                              8.1.0 (Oreo)</p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <p class="paragraphe_open_generation_deux"><span>Caméra</span> Avant,
+                              Arrière, Flash, Vidéo</p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <p class="paragraphe_open_generation_deux"><span>Mémoire</span> 32Gb ROM,
+                              2Gb RAM, Jusqu'à 32Gb SD Card</p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <p class="paragraphe_open_generation_deux"><span>écran</span> 5 pouces,
+                              IPS, OLED</p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <p class="paragraphe_open_generation_deux"><span>Battérie</span> 2500mAh
+                            </p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <p class="paragraphe_open_generation_deux"><span>Connexion</span> GPS, Nano
+                              SIM/Micro SD Card, Wifi, Port<br />
+                              Jack, USB type-B, OTG,FM,Bluetooth</p>
+                          </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 20px;">
+                          <div class="col">
+                            <p class="paragraphe_open_generation_deux"><span>Système et Capteurs</span>
+                              Boussole, Gyroscope,G-capteur, Capteur de lumière/proximité,
+                              Empreinte digitale au dos</p>
+                          </div>
+                        </div>
+                        <a class="lien_open_generation_deux" href="#">Précommander</a>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- Section_coleur_du_Smartphone -->
+                <section class="vingt_trois_section">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h1 class="titre_coleur_du_smartphone"><img src="/open_moise/static/images/OPEN_blanc.png" />
+                          <span>G</span></h1>
+                        <p class="paragraphe_coleur_du_smartphone">Disponible en 3 couleurs uniques, soit d'une finition matte
+                          sans pareille.</p>
+                        <div class="row">
+                          <div class="col">
+                            <div class="cercle_un_coleur_du_smartphone">
+                              <svg height="100" width="100">
+                                <circle cx="50" cy="50" r="40" stroke="grey" stroke-width="1" fill="#000" />
+                              </svg>
+                            </div>
+                          </div>
+                          <div id="cercle_un_coleur_du_smartphone" class="col">Noir Sage</div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="cercle_deux_coleur_du_smartphone">
+                              <svg height="100" width="100">
+                                <circle cx="50" cy="50" r="40" stroke="grey" stroke-width="1" fill="red" />
+                              </svg>
+                            </div>
+                          </div>
+                          <div id="cercle_deux_coleur_du_smartphone" class="col">Rouge Courage</div>
+                        </div>
+                        <div class="row" style="margin-bottom: 20px;">
+                          <div class="col">
+                            <div class="cercle_trois_coleur_du_smartphone">
+                              <svg height="100" width="100">
+                                <circle cx="50" cy="50" r="40" stroke="grey" stroke-width="1" fill="purple" />
+                              </svg>
+                            </div>
+                          </div>
+                          <div id="cercle_trois_coleur_du_smartphone" class="col">Violet Fidèle</div>
+                        </div>
+                        <a class="lien_coleur_du_smartphone" href="#">Précommander</a>
+                      </div>
+                      <div class="col-6">
+                        <img class="img_coleur_du_smartphone" src="/open_moise/static/images/colorsOpenG.png" />
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </body>
+            </div>
+          </t>
+        </t>
+      </field>
+    </record>
+
+    <record id="homepage_view_menu" model="website.page">
+      <field name="website_published">True</field>
+      <field name="url">/demoNome</field>
+      <field name="is_homepage">True</field>
+      <field name="view_id" ref="homepage_view_1" />
+    </record>
+  </data>
+</odoo>
