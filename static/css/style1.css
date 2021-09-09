@@ -1,1799 +1,171 @@
 /* Pour les medias queries */
 /* section_header */
 /* section_header_vues_web_et_mobile */
-@media screen and (max-width: 2614px) and (min-width: 2000px) {
-  .logo_navigation {
-    height: 70px;
-  }
-  .zero_container {
-    margin-left: 22%;
-  }
-}
-@media screen and (max-width: 1999px) and (min-width: 1825px) {
-  .header-blue {
-    margin-right: 5%;
-  }
-  .fluidding {
-    margin-left: -2%;
-  }
-  .fluidding li a {
-    font-size: 13px !important;
-  }
-}
-@media screen and (max-width: 1824px) and (min-width: 1382px) {
-  .header-blue {
-    margin-right: 17%;
-  }
-  .fluidding {
-    margin-left: -17%;
-  }
-}
-@media screen and (max-width: 1381px) and (min-width: 1059px) {
-  #space {
-    margin-left: -20% !important;
-  }
-  .fluidding li a {
-    font-size: 13px !important;
-  }
-  .logo_navigation {
-    height: 55px;
-  }
-}
 @media screen and (max-width: 1058px) and (min-width: 992px) {
-  .header-blue {
-    margin-right: 1%;
-  }
   #lien_enregistrer_connecter {
-    width: 100%;
-    font-size: 12px !important;
-  }
-  #space {
-    margin-left: 0% !important;
-  }
-  .fluidding {
-    margin-left: -19%;
-  }
-  .fluidding li a {
     font-size: 12px !important;
   }
 }
 @media screen and (max-width: 991px) and (min-width: 959px) {
-  .header-blue {
-    margin-right: 1%;
-  }
   #lien_precommander {
-    width: 38%;
-    text-align: left;
-    background: none;
-    margin-left: -8px;
     color: rgba(112, 112, 112, 1);
-    font-size: 16px;
-    font-weight: 500;
+    background: none;
   }
   #lien_enregistrer_connecter {
-    width: 28%;
-    border: none;
-    font-size: 16px;
-    margin-left: -7px;
+    width: 100% !important;
   }
 }
 @media screen and (max-width: 958px) and (min-width: 768px) {
-  .header-blue {
-    margin-right: 1%;
-  }
-  .fluidding {
-    margin-left: 72% !important;
-  }
-  #space {
-    width: 7% !important;
-    margin-left: 70% !important;
-  }
   #lien_precommander {
-    width: 38%;
-    text-align: left;
     background: none;
-    margin-left: -8px;
     color: rgba(112, 112, 112, 1);
     font-size: 16px;
-    font-weight: 500;
   }
   #lien_enregistrer_connecter {
     width: 28%;
     border: none;
     font-size: 16px;
-    margin-left: -7px;
   }
 }
-@media screen and (max-width: 767px) and (min-width: 600px) {
-  .header-blue {
-    margin-right: 1%;
-  }
-  #space {
-    margin-left: 72% !important;
-    width: 42px !important;
-  }
-  .logo_navigation {
-    height: 55px;
-  }
+@media screen and (max-width: 767px) {
   #lien_precommander {
-    width: 38%;
-    text-align: left;
     background: none;
-    margin-left: -8px;
     color: rgba(112, 112, 112, 1);
     font-size: 16px;
-    font-weight: 500;
   }
   #lien_enregistrer_connecter {
     width: 28%;
     border: none;
     font-size: 16px;
-    margin-left: -7px;
-  }
-}
-@media screen and (max-width: 599px) and (min-width: 400px) {
-  .header-blue {
-    margin-right: 1%;
-  }
-  .fluidding {
-    margin-left: 67%;
-  }
-  .logo_navigation {
-    height: 50px !important;
-  }
-  #space {
-    margin-left: 39% !important;
-    margin-top: -3px !important;
-    width: 2% !important;
-  }
-  #lien_precommander {
-    width: 38%;
-    text-align: left;
-    background: none;
-    margin-left: -8px;
-    color: rgba(112, 112, 112, 1);
-    font-size: 16px;
-    font-weight: 500;
-  }
-  #lien_enregistrer_connecter {
-    width: 28%;
-    border: none;
-    font-size: 16px;
-    margin-left: -7px;
-  }
-}
-@media screen and (max-width: 399px) and (min-width: 200px) {
-  .header-blue {
-    margin-right: 1%;
-  }
-  .fluidding {
-    margin-left: 75% !important;
-    margin-top: -6px !important;
-  }
-  .fluidding li a {
-    font-size: 10px !important;
-  }
-  #space {
-    margin-left: 58% !important;
-    width: 0% !important;
-  }
-  .logo_navigation {
-    height: 38px !important;
-  }
-  #lien_precommander {
-    width: 38%;
-    text-align: left;
-    background: none;
-    margin-left: -8px;
-    color: rgba(112, 112, 112, 1);
-    font-size: 16px;
-    font-weight: 500;
-  }
-  #lien_enregistrer_connecter {
-    width: 28%;
-    border: none;
-    font-size: 16px;
-    margin-left: -7px;
   }
 }
 /* section_Acceuil_vues_web_et_mobile */
-@media screen and (max-width: 2614px) and (min-width: 2000px) {
-  /* .first_section_img {
-    width: 100% !important;
-  }
-  .first_section {
-    width: 100% !important;
-  }
-  .un_container {
-    margin-right: 10%;
-    margin-left: 20%;
-  } */
-}
-@media screen and (max-width: 1999px) and (min-width: 1825px) {
-  .first_section {
-    height: 614px;
-  }
-  .first_section_img {
-    height: 614px;
-  }
-  .superphone {
-    font-size: 40px;
-  }
-  .prix1 {
-    margin-top: 15px;
-  }
-  .prix2 {
-    margin-top: 15px;
-  }
-  .signature {
-    font-size: 40px;
-  }
-  .generation {
-    height: 120px;
-  }
+@media screen and (max-width: 1519px) and (min-width: 768px) {
   .double_phone {
-    height: 641px;
-    margin-top: 50px;
-  }
-}
-@media screen and (max-width: 1824px) and (min-width: 1700px) {
-  .first_section {
-    height: 572px !important;
-  }
-  .precommander {
-    font-size: 20px;
-    height: 31px;
-    width: 71%;
-  }
-  .first_section_img {
-    height: 572px !important;
-  }
-  .logo_navigation {
-    height: 55px !important;
-  }
-  .fluidding li a {
-    font-size: 14px !important;
-  }
-  .prix1 {
-    font-size: 30px;
-    margin-top: 14px;
-  }
-  .prix1 span {
-    font-size: 20px;
-    margin-top: 14px;
-  }
-  .prix2 {
-    font-size: 30px;
-    margin-top: 14px;
-  }
-  .prix2 span {
-    font-size: 20px;
-    margin-top: 14px;
-  }
-  .superĥone {
-    font-size: 32px;
-  }
-  .signature {
-    font-size: 40px;
-  }
-  .generation img {
-    height: 120px !important;
-  }
-  .double_phone {
-    height: 650px;
-  }
-}
-@media screen and (max-width: 1699px) and (min-width: 1500px) {
-  .first_section {
-    height: 572px !important;
-  }
-  .precommander {
-    font-size: 20px;
-    height: 31px;
-    width: 71%;
-  }
-  .first_section_img {
-    height: 572px !important;
-  }
-  .logo_navigation {
-    height: 55px !important;
-  }
-  .fluidding li a {
-    font-size: 14px !important;
-  }
-  .prix1 {
-    font-size: 30px;
-    margin-top: 14px;
-  }
-  .prix1 span {
-    font-size: 20px;
-    margin-top: 14px;
-  }
-  .prix2 {
-    font-size: 30px;
-    margin-top: 14px;
-  }
-  .prix2 span {
-    font-size: 20px;
-    margin-top: 14px;
-  }
-  .superĥone {
-    font-size: 32px !important;
-  }
-  .signature {
-    font-size: 40px;
-  }
-  .generation img {
-    height: 120px !important;
-  }
-  .double_phone {
-    height: 650px;
-  }
-}
-@media screen and (max-width: 1499px) and (min-width: 1400px) {
-  .first_section {
-    height: 530px !important;
-  }
-  .precommander {
-    font-size: 20px;
-    height: 31px;
-    width: 71%;
-  }
-  .first_section_img {
-    height: 530px !important;
-  }
-  .logo_navigation {
-    height: 55px !important;
-  }
-  .fluidding li a {
-    font-size: 14px !important;
-  }
-  .prix1 {
-    font-size: 30px;
-    margin-top: 14px;
-  }
-  .prix1 span {
-    font-size: 20px;
-    margin-top: 14px;
-  }
-  .prix2 {
-    font-size: 30px;
-    margin-top: 14px;
-  }
-  .prix2 span {
-    font-size: 20px;
-    margin-top: 14px;
-  }
-  .superĥone {
-    font-size: 32px !important;
-  }
-  .signature {
-    font-size: 40px;
-  }
-  .generation img {
-    height: 120px !important;
-  }
-  .double_phone {
-    height: 606px;
-  }
-}
-@media screen and (max-width: 1399px) and (min-width: 1382px) {
-  .first_section {
-    height: 572px !important;
-  }
-  .precommander {
-    font-size: 20px;
-    height: 31px;
-    width: 71%;
-  }
-  .first_section_img {
-    height: 573px !important;
-  }
-  .logo_navigation {
-    height: 55px !important;
-  }
-  .fluidding li a {
-    font-size: 14px !important;
-  }
-  .prix1 {
-    font-size: 30px;
-    margin-top: 14px;
-  }
-  .prix1 span {
-    font-size: 20px;
-    margin-top: 14px;
-  }
-  .prix2 {
-    font-size: 30px;
-    margin-top: 14px;
-  }
-  .prix2 span {
-    font-size: 20px;
-    margin-top: 14px;
-  }
-  .superĥone {
-    font-size: 32px !important;
-  }
-  .signature {
-    font-size: 40px;
-  }
-  .generation img {
-    height: 120px !important;
-  }
-  .double_phone {
-    height: 586px;
-    margin-top: 55px;
-  }
-}
-@media screen and (max-width: 1381px) and (min-width: 1200px) {
-  .first_section {
-    height: 495px !important;
-  }
-  .precommander {
-    font-size: 20px;
-    height: 31px;
-    width: 71%;
-  }
-  .first_section_img {
-    height: 495px !important;
-  }
-  .logo_navigation {
-    height: 55px !important;
-  }
-  .fluidding li a {
-    font-size: 14px !important;
-  }
-  .prix1 {
-    font-size: 30px;
-    margin-top: 14px;
-  }
-  .prix1 span {
-    font-size: 20px;
-    margin-top: 14px;
-  }
-  .prix2 {
-    font-size: 30px;
-    margin-top: 14px;
-  }
-  .prix2 span {
-    font-size: 20px;
-    margin-top: 14px;
-  }
-  .superĥone {
-    font-size: 32px !important;
-  }
-  .signature {
-    font-size: 40px;
-  }
-  .generation img {
-    height: 120px !important;
-  }
-  .double_phone {
-    height: 494px;
-    margin-top: 69px;
-  }
-}
-@media screen and (max-width: 1199px) and (min-width: 1172px) {
-  .first_section {
-    height: 495px !important;
-  }
-  .precommander {
-    font-size: 20px;
-    height: 31px;
-    width: 71%;
-  }
-  .first_section_img {
-    height: 495px !important;
-  }
-  .logo_navigation {
-    height: 55px !important;
-  }
-  .fluidding li a {
-    font-size: 14px !important;
-  }
-  .prix1 {
-    font-size: 30px;
-    margin-top: 14px;
-  }
-  .prix1 span {
-    font-size: 20px;
-    margin-top: 14px;
-  }
-  .prix2 {
-    font-size: 30px;
-    margin-top: 14px;
-  }
-  .prix2 span {
-    font-size: 20px;
-    margin-top: 14px;
-  }
-  .superĥone {
-    font-size: 32px !important;
-  }
-  .signature {
-    font-size: 40px;
-  }
-  .generation img {
-    height: 120px !important;
-  }
-  .double_phone {
-    height: 494px;
-    margin-top: 69px;
-  }
-}
-@media screen and (max-width: 1171px) and (min-width: 1000px) {
-  .first_section {
-    height: 495px !important;
-  }
-  .precommander {
-    font-size: 20px;
-    height: 31px;
-    width: 71%;
-  }
-  .first_section_img {
-    height: 495px !important;
-  }
-  .logo_navigation {
-    height: 55px !important;
-  }
-  .fluidding li a {
-    font-size: 14px !important;
-  }
-  .prix1 {
-    font-size: 30px;
-    margin-top: 14px;
-  }
-  .prix1 span {
-    font-size: 20px;
-    margin-top: 14px;
-  }
-  .prix2 {
-    font-size: 30px;
-    margin-top: 14px;
-  }
-  .prix2 span {
-    font-size: 20px;
-    margin-top: 14px;
-  }
-  .superĥone {
-    font-size: 32px !important;
-  }
-  .signature {
-    font-size: 40px;
-  }
-  .generation img {
-    height: 120px !important;
-  }
-  .double_phone {
-    height: 417px;
-    margin-top: 69px;
-  }
-}
-@media screen and (max-width: 999px) and (min-width: 992px) {
-  .first_section {
-    height: 495px !important;
-  }
-  .precommander {
-    font-size: 20px;
-    height: 31px;
-    width: 71%;
-  }
-  .first_section_img {
-    height: 495px !important;
-  }
-  .logo_navigation {
-    height: 55px !important;
-  }
-  .fluidding li a {
-    font-size: 14px !important;
-  }
-  .prix1 {
-    font-size: 30px;
-    margin-top: 14px;
-  }
-  .prix1 span {
-    font-size: 20px;
-    margin-top: 14px;
-  }
-  .prix2 {
-    font-size: 30px;
-    margin-top: 14px;
-  }
-  .prix2 span {
-    font-size: 20px;
-    margin-top: 14px;
-  }
-  .superĥone {
-    font-size: 32px !important;
-  }
-  .signature {
-    font-size: 40px;
-  }
-  .generation img {
-    height: 120px !important;
-  }
-  .double_phone {
-    height: 417px;
-    margin-top: 69px;
-  }
-}
-@media screen and (max-width: 991px) and (min-width: 768px) {
-  .first_section {
-    height: 322px !important;
-  }
-  .precommander {
-    font-size: 16px !important;
-    height: 23px !important;
-    width: 72% !important;
-    margin-top: 1% !important;
-  }
-  .first_section_img {
-    height: 322px !important;
-    padding: 38px;
-  }
-  .logo_navigation {
-    height: 45px !important;
-  }
-  .fluidding li a {
-    font-size: 14px !important;
-  }
-  .prix1 {
-    font-size: 20px;
-  }
-  .prix1 span {
-    font-size: 14px !important;
-  }
-  .prix2 {
-    font-size: 20px;
-  }
-  .prix2 span {
-    font-size: 14px !important;
-  }
-  .superĥone {
-    font-size: 22px !important;
-  }
-  .signature {
-    font-size: 25px;
-  }
-  .generation img {
-    height: 75px !important;
-  }
-  .generation {
-    height: 20%;
-  }
-  .double_phone {
-    height: 311px;
-    margin-top: 89px;
-  }
-  .savoir_plus {
-    font-size: 15px;
-  }
-  #lien_enregistrer_connecter {
-    width: 100% !important;
-    padding: 5px !important;
-    font-size: 9px !important;
-  }
-  #lien_precommander {
-    font-size: 15px;
-    height: 26px;
-    width: 74%;
-    margin-top: 2px;
-  }
-}
-@media screen and (max-width: 767px) and (min-width: 600px) {
-  .first_section {
-    height: 229px !important;
-  }
-  .precommander {
-    font-size: 10px !important;
-    height: 16px !important;
-    width: 71% !important;
-    margin-top: -5% !important;
-  }
-  .first_section_img {
-    height: 229px !important;
-    padding: 24px;
-  }
-  .logo_navigation {
-    height: 30px !important;
-  }
-  .fluidding li a {
-    font-size: 14px !important;
-  }
-  .prix1 {
-    font-size: 12px;
-    margin-top: 6%;
-  }
-  .prix1 span {
-    font-size: 10px !important;
-  }
-  .prix2 {
-    font-size: 12px;
-    margin-top: 6%;
-  }
-  .prix2 span {
-    font-size: 10px !important;
-  }
-  .superĥone {
-    font-size: 14px !important;
-  }
-  .signature {
-    font-size: 16px;
-  }
-  .generation img {
-    height: 50px !important;
-  }
-  .generation {
-    height: 15%;
-  }
-  .double_phone {
-    height: 238px;
-    margin-top: 78px;
-  }
-  .savoir_plus {
-    font-size: 12px;
-  }
-  #lien_enregistrer_connecter {
-    width: 100% !important;
-    padding: 5px !important;
-    font-size: 9px !important;
-  }
-  #lien_precommander {
-    font-size: 15px;
-    height: 26px;
-    width: 74%;
-    margin-top: 2px;
-  }
-}
-@media screen and (max-width: 599px) and (min-width: 576px) {
-  .first_section {
-    height: 228px !important;
-  }
-  .precommander {
-    font-size: 10px !important;
-    height: 16px !important;
-    width: 71% !important;
-    margin-top: -5% !important;
-  }
-  .first_section_img {
-    height: 229px !important;
-    padding: 24px;
-  }
-  .logo_navigation {
-    height: 30px !important;
-  }
-  .fluidding li a {
-    font-size: 14px !important;
-  }
-  .prix1 {
-    font-size: 12px;
-    margin-top: 6%;
-  }
-  .prix1 span {
-    font-size: 10px !important;
-  }
-  .prix2 {
-    font-size: 12px;
-    margin-top: 6%;
-  }
-  .prix2 span {
-    font-size: 10px !important;
-  }
-  .superĥone {
-    font-size: 14px !important;
-  }
-  .signature {
-    font-size: 16px;
-  }
-  .generation img {
-    height: 50px !important;
-  }
-  .generation {
-    height: 15%;
-  }
-  .double_phone {
-    height: 238px;
-    margin-top: 78px;
-  }
-  .savoir_plus {
-    font-size: 12px;
-  }
-  #lien_enregistrer_connecter {
-    width: 100% !important;
-    padding: 5px !important;
-    font-size: 9px !important;
-  }
-  #lien_precommander {
-    font-size: 15px;
-    height: 26px;
-    width: 74%;
-    margin-top: 2px;
-  }
-}
-@media screen and (max-width: 575px) and (min-width: 426px) {
-  .first_section {
-    height: 200px !important;
-  }
-  .precommander {
-    font-size: 7px !important;
-    height: 10px !important;
-    width: 72% !important;
-    margin-top: -5% !important;
-    margin-bottom: 5px !important;
-  }
-  .first_section_img {
-    height: 200px !important;
-    padding: 24px;
-  }
-  .logo_navigation {
-    height: 30px !important;
-  }
-  .fluidding li a {
-    font-size: 14px !important;
-  }
-  .prix1 {
-    font-size: 10px;
-    margin-top: 6%;
-  }
-  .prix1 span {
-    font-size: 10px !important;
-  }
-  .prix2 {
-    font-size: 12px;
-    margin-top: 6%;
-  }
-  .prix2 span {
-    font-size: 10px !important;
-  }
-  .superĥone {
-    font-size: 13px !important;
-    margin-top: -7px !important;
-  }
-  .signature {
-    font-size: 16px;
-  }
-  .generation img {
-    height: 48px !important;
-  }
-  .generation {
-    height: 15%;
-  }
-  .double_phone {
-    height: 201px;
-    margin-top: 82px;
-  }
-  .savoir_plus {
-    font-size: 10px !important;
-  }
-  #lien_enregistrer_connecter {
-    width: 100% !important;
-    padding: 5px !important;
-    font-size: 9px !important;
-  }
-  #lien_precommander {
-    font-size: 15px;
-    height: 26px;
-    width: 74%;
-    margin-top: 2px;
-  }
-}
-@media screen and (max-width: 425px) and (min-width: 413px) {
-  .first_section_img {
     width: 100%;
-    height: 840px;
-  }
-  .first_section {
-    height: 839px;
-  }
-  .logo_navigation {
-    height: 79px;
+    height: auto;
   }
   .signature {
-    font-size: 25px !important;
-    margin-left: -3%;
+    font-size: 30px;
   }
   .superĥone {
-    font-size: 24px !important;
-    white-space: pre;
-    margin-left: 20% !important;
+    font-size: 23px;
   }
   .prix1 {
-    font-size: 27px !important;
-    height: 10% !important;
-    margin-top: 442px !important;
-    width: 157% !important;
-    margin-left: 22% !important;
-    white-space: pre !important;
+    width: 100%;
+    height: auto;
+    font-size: 23px;
   }
   .prix1 span {
-    font-size: 18px !important;
-  }
-  .prix2 span {
-    font-size: 18px !important;
-  }
-  .prix2 {
-    font-size: 24px !important;
-    margin-left: 52%;
-    margin-top: -2px !important;
-    white-space: pre;
-  }
-  .generation img {
-    height: 85px !important;
-    margin-left: -7% !important;
-  }
-  /* .un_container {
-    margin-right: 10% !important;
-    margin-left: 12% !important;
-  } */
-  .double_phone {
-    height: 363px;
-    margin-top: 503% !important;
-    margin-left: -321% !important;
-  }
-  .precommander {
-    font-size: 19px !important;
-    margin-left: 21%;
-    padding: 10px !important;
-    margin-top: -387% !important;
-    height: auto !important;
-    width: 139% !important;
-  }
-  .savoir_plus {
-    margin-left: 44%;
-    margin-top: -352%;
-    font-size: 14px;
-    white-space: pre;
-  }
-}
-@media screen and (max-width: 412px) and (min-width: 402px) {
-  .first_section_img {
-    width: 100%;
-    height: 840px;
-  }
-  .first_section {
-    height: 839px;
-  }
-  .logo_navigation {
-    height: 79px;
-  }
-  .signature {
-    font-size: 25px !important;
-    margin-left: -3%;
-  }
-  .superĥone {
-    font-size: 24px !important;
-    white-space: pre;
-    margin-left: 20% !important;
-  }
-  .prix1 {
-    font-size: 27px !important;
-    height: 10% !important;
-    margin-top: 423px !important;
-    width: 157% !important;
-    margin-left: 22% !important;
-    white-space: pre !important;
-  }
-  .prix1 span {
-    font-size: 18px !important;
-  }
-  .prix2 span {
-    font-size: 18px !important;
-  }
-  .prix2 {
-    font-size: 24px !important;
-    margin-left: 52%;
-    margin-top: -2px !important;
-    white-space: pre;
-  }
-  .generation img {
-    height: 85px !important;
-    margin-left: -7% !important;
-  }
-  /* .un_container {
-    margin-right: 10% !important;
-    margin-left: 12% !important;
-  } */
-  .double_phone {
-    height: 363px;
-    margin-top: 525% !important;
-    margin-left: -321% !important;
-  }
-  .precommander {
-    font-size: 19px !important;
-    margin-left: 21%;
-    padding: 10px !important;
-    margin-top: -395% !important;
-    height: auto !important;
-    width: 139% !important;
-  }
-  .savoir_plus {
-    margin-left: 44%;
-    margin-top: -360%;
-    font-size: 14px;
-    white-space: pre;
-  }
-}
-@media screen and (max-width: 401px) and (min-width: 393px) {
-  .first_section_img {
-    width: 100%;
-    height: 840px;
-  }
-  .first_section {
-    height: 199px !important;
-  }
-  .logo_navigation {
-    height: 79px;
-  }
-  .signature {
-    font-size: 25px !important;
-    margin-left: -3%;
-  }
-  .superĥone {
-    font-size: 24px !important;
-    white-space: pre;
-    margin-left: 20% !important;
-  }
-  .prix1 {
-    font-size: 27px !important;
-    height: 10% !important;
-    margin-top: 423px !important;
-    width: 157% !important;
-    margin-left: 22% !important;
-    white-space: pre !important;
-  }
-  .prix1 span {
-    font-size: 18px !important;
-  }
-  .prix2 span {
-    font-size: 18px !important;
-  }
-  .prix2 {
-    font-size: 24px !important;
-    margin-left: 52%;
-    margin-top: -2px !important;
-    white-space: pre;
-  }
-  .generation img {
-    height: 85px !important;
-    margin-left: -7% !important;
-  }
-  /* .un_container {
-    margin-right: 10% !important;
-    margin-left: 12% !important;
-  } */
-  .double_phone {
-    height: 363px;
-    margin-top: 548% !important;
-    margin-left: -347% !important;
-  }
-  .precommander {
-    font-size: 19px !important;
-    margin-left: 21%;
-    padding: 10px !important;
-    margin-top: -415% !important;
-    height: auto !important;
-    width: 139% !important;
-  }
-  .savoir_plus {
-    margin-top: -485px !important;
-    margin-left: 50px !important;
-    font-size: 14px;
-    white-space: pre;
-  }
-}
-@media screen and (max-width: 392px) and (min-width: 378px) {
-  .first_section_img {
-    width: 100%;
-    height: 840px;
-  }
-  .first_section {
-    height: 840px;
-  }
-  .logo_navigation {
-    height: 79px;
-  }
-  .signature {
-    font-size: 25px !important;
-    margin-left: -3%;
-  }
-  .superĥone {
-    font-size: 24px !important;
-    white-space: pre;
-    margin-left: 20% !important;
-  }
-  .prix1 {
-    font-size: 27px !important;
-    height: 10% !important;
-    margin-top: 423px !important;
-    width: 157% !important;
-    margin-left: 22% !important;
-    white-space: pre !important;
-  }
-  .prix1 span {
-    font-size: 18px !important;
-  }
-  .prix2 span {
-    font-size: 18px !important;
-  }
-  .prix2 {
-    font-size: 24px !important;
-    margin-left: 52%;
-    margin-top: -2px !important;
-    white-space: pre;
-  }
-  .generation img {
-    height: 85px !important;
-    margin-left: -21% !important;
-  }
-  .double_phone {
-    height: 340px;
-    margin-top: 608% !important;
-    margin-left: -362% !important;
-  }
-  .precommander {
-    font-size: 19px !important;
-    margin-left: 21%;
-    padding: 10px !important;
-    margin-top: -438% !important;
-    height: auto !important;
-    width: 139% !important;
-  }
-  .savoir_plus {
-    margin-top: -482px !important;
-    margin-left: 50px !important;
-    font-size: 14px;
-    white-space: pre;
-  }
-}
-@media screen and (max-width: 377px) and (min-width: 366px) {
-  .first_section_img {
-    width: 100%;
-    height: 840px;
-  }
-  .first_section {
-    height: 840px;
-  }
-  .logo_navigation {
-    height: 79px;
-  }
-  .signature {
-    font-size: 25px !important;
-    margin-left: -3%;
-  }
-  .superĥone {
-    font-size: 24px !important;
-    white-space: pre;
-    margin-left: 20% !important;
-  }
-  .prix1 {
-    font-size: 27px !important;
-    height: 10% !important;
-    margin-top: 423px !important;
-    width: 157% !important;
-    margin-left: 22% !important;
-    white-space: pre !important;
-  }
-  .prix1 span {
-    font-size: 18px !important;
-  }
-  .prix2 span {
-    font-size: 18px !important;
-  }
-  .prix2 {
-    font-size: 24px !important;
-    margin-left: 52%;
-    margin-top: -2px !important;
-    white-space: pre;
-  }
-  .generation img {
-    height: 85px !important;
-    margin-left: -21% !important;
-  }
-  .double_phone {
-    height: 340px;
-    margin-top: 676% !important;
-    margin-left: -362% !important;
-  }
-  .precommander {
-    font-size: 19px !important;
-    margin-left: 21%;
-    padding: 10px !important;
-    margin-top: -468% !important;
-    height: auto !important;
-    width: 139% !important;
-  }
-  .savoir_plus {
-    margin-top: -482px !important;
-    margin-left: 42px !important;
-    font-size: 14px;
-    white-space: pre;
-  }
-}
-@media screen and (max-width: 365px) and (min-width: 355px) {
-  .first_section_img {
-    width: 100%;
-    height: 840px;
-  }
-  .first_section {
-    height: 840px;
-  }
-  .logo_navigation {
-    height: 79px;
-  }
-  .signature {
-    margin-left: -30%;
-    font-size: 25px !important;
-  }
-  .superĥone {
-    font-size: 24px !important;
-    white-space: pre;
-    margin-left: 9% !important;
-  }
-  .prix1 {
-    font-size: 27px !important;
-    height: 10% !important;
-    margin-top: 423px !important;
-    width: 157% !important;
-    margin-left: 22% !important;
-    white-space: pre !important;
-  }
-  .prix1 span {
-    font-size: 18px !important;
-  }
-  .prix2 span {
-    font-size: 18px !important;
-  }
-  .prix2 {
-    font-size: 24px !important;
-    margin-left: 52%;
-    margin-top: -2px !important;
-    white-space: pre;
-  }
-  .generation img {
-    height: 85px !important;
-    margin-left: -36% !important;
-  }
-  .double_phone {
-    height: 340px;
-    margin-top: 717% !important;
-    margin-left: -398% !important;
-  }
-  .precommander {
-    font-size: 19px !important;
-    margin-left: 21%;
-    padding: 10px !important;
-    margin-top: -497% !important;
-    height: auto !important;
-    width: 139% !important;
-  }
-  .savoir_plus {
-    margin-top: -482px !important;
-    margin-left: 42px !important;
-    font-size: 14px;
-    white-space: pre;
-  }
-}
-@media screen and (max-width: 354px) and (min-width: 343px) {
-  .first_section_img {
-    width: 100%;
-    height: 840px;
-  }
-  .first_section {
-    height: 840px;
-  }
-  .logo_navigation {
-    height: 79px;
-  }
-  .signature {
-    margin-left: -20%;
-    font-size: 20px !important;
-  }
-  .superĥone {
-    font-size: 19px !important;
-    white-space: pre;
-    margin-left: 16% !important;
-  }
-  .prix1 {
-    font-size: 22px !important;
-    height: 10% !important;
-    margin-top: 423px !important;
-    width: 157% !important;
-    margin-left: 22% !important;
-    white-space: pre !important;
-  }
-  .prix1 span {
-    font-size: 18px !important;
-  }
-  .prix2 span {
-    font-size: 18px !important;
-  }
-  .prix2 {
-    font-size: 22px !important;
-    margin-left: 42%;
-    margin-top: -2px !important;
-    white-space: pre;
-  }
-  .generation img {
-    height: 85px !important;
-    margin-left: -36% !important;
-  }
-  .double_phone {
-    height: 311px;
-    margin-top: 717% !important;
-    margin-left: -382% !important;
-  }
-  .precommander {
-    font-size: 14px !important;
-    margin-left: 29%;
-    padding: 10px !important;
-    margin-top: -522% !important;
-    height: auto !important;
-    width: 120% !important;
-  }
-  .savoir_plus {
-    margin-top: -474px !important;
-    margin-left: 44px !important;
-    font-size: 11px;
-    white-space: pre;
-  }
-}
-@media screen and (max-width: 342px) and (min-width: 330px) {
-  .first_section_img {
-    width: 100%;
-    height: 840px;
-  }
-  .first_section {
-    height: 840px;
-  }
-  .logo_navigation {
-    height: 79px;
-  }
-  .signature {
-    margin-left: -20%;
-    font-size: 20px !important;
-  }
-  .superĥone {
-    font-size: 19px !important;
-    white-space: pre;
-    margin-left: 16% !important;
-  }
-  .prix1 {
-    font-size: 22px !important;
-    height: 10% !important;
-    margin-top: 423px !important;
-    width: 157% !important;
-    margin-left: 22% !important;
-    white-space: pre !important;
-  }
-  .prix1 span {
-    font-size: 18px !important;
-  }
-  .prix2 span {
-    font-size: 18px !important;
-  }
-  .prix2 {
-    font-size: 22px !important;
-    margin-left: 42%;
-    margin-top: -2px !important;
-    white-space: pre;
-  }
-  .generation img {
-    height: 76px !important;
-    margin-bottom: 5px !important;
-    margin-left: -36% !important;
-  }
-  .double_phone {
-    height: 300px;
-    margin-top: 885% !important;
-    margin-left: -420% !important;
-  }
-  .precommander {
-    font-size: 14px !important;
-    margin-left: 29%;
-    padding: 10px !important;
-    margin-top: -563% !important;
-    height: auto !important;
-    width: 120% !important;
-  }
-  .savoir_plus {
-    margin-top: -474px !important;
-    margin-left: 41px !important;
-    font-size: 8px;
-    white-space: pre;
-  }
-}
-@media screen and (max-width: 329px) and (min-width: 320px) {
-  .first_section_img {
-    width: 100%;
-    height: 840px;
-  }
-  .first_section {
-    height: 840px;
-  }
-  .logo_navigation {
-    height: 79px;
-  }
-  .signature {
-    margin-left: -20%;
-    font-size: 20px !important;
-  }
-  .superĥone {
-    font-size: 19px !important;
-    white-space: pre;
-    margin-left: 16% !important;
-  }
-  .prix1 {
-    font-size: 22px !important;
-    height: 10% !important;
-    margin-top: 423px !important;
-    width: 167% !important;
-    margin-left: 22% !important;
-    white-space: pre !important;
-  }
-  .prix1 span {
-    font-size: 18px !important;
-  }
-  .prix2 span {
-    font-size: 18px !important;
-  }
-  .prix2 {
-    font-size: 22px !important;
-    margin-left: 42%;
-    margin-top: -2px !important;
-    white-space: pre;
-  }
-  .generation img {
-    height: 76px !important;
-    margin-bottom: 5px !important;
-    margin-left: -36% !important;
-  }
-  .double_phone {
-    height: 285px;
-    margin-top: 1004% !important;
-    margin-left: -439% !important;
-  }
-  .precommander {
-    font-size: 14px !important;
-    margin-left: 29%;
-    padding: 10px !important;
-    margin-top: -610% !important;
-    height: auto !important;
-    width: 128% !important;
-  }
-  .savoir_plus {
-    margin-top: -464px !important;
-    margin-left: 39px !important;
-    font-size: 9px;
-    white-space: pre;
-  }
-}
-@media screen and (max-width: 319px) and (min-width: 315px) {
-  .first_section_img {
-    width: 100%;
-    height: 840px;
-  }
-  .first_section {
-    height: 840px;
-  }
-  .logo_navigation {
-    height: 79px;
-  }
-  .signature {
-    margin-left: -20%;
-    font-size: 20px !important;
-  }
-  .superĥone {
-    font-size: 19px !important;
-    white-space: pre;
-    margin-left: 16% !important;
-  }
-  .prix1 {
-    font-size: 22px !important;
-    height: 10% !important;
-    margin-top: 423px !important;
-    width: 167% !important;
-    margin-left: 22% !important;
-    white-space: pre !important;
-  }
-  .prix1 span {
-    font-size: 18px !important;
-  }
-  .prix2 span {
-    font-size: 18px !important;
-  }
-  .prix2 {
-    font-size: 22px !important;
-    margin-left: 34%;
-    margin-top: -2px !important;
-    white-space: pre;
-  }
-  .generation img {
-    height: 76px !important;
-    margin-bottom: 5px !important;
-    margin-left: -36% !important;
-  }
-  .double_phone {
-    height: 285px;
-    margin-top: 1004% !important;
-    margin-left: -439% !important;
-  }
-  .precommander {
-    font-size: 14px !important;
-    margin-left: 29%;
-    padding: 10px !important;
-    margin-top: -610% !important;
-    height: auto !important;
-    width: 128% !important;
-  }
-  .savoir_plus {
-    margin-top: -464px !important;
-    margin-left: 39px !important;
-    font-size: 9px;
-    white-space: pre;
-  }
-}
-@media screen and (max-width: 314px) and (min-width: 302px) {
-  .first_section_img {
-    width: 100%;
-    height: 840px;
-  }
-  .first_section {
-    height: 840px;
-  }
-  .logo_navigation {
-    height: 79px;
-  }
-  .signature {
-    margin-left: -47%;
-    font-size: 20px !important;
-  }
-  .superĥone {
-    font-size: 19px !important;
-    white-space: pre;
-    margin-left: -7% !important;
-  }
-  .prix1 {
-    font-size: 22px !important;
-    height: 8% !important;
-    margin-top: 526px !important;
-    width: 210% !important;
-    margin-left: 7% !important;
-    white-space: pre !important;
-  }
-  .prix1 span {
-    font-size: 18px !important;
-  }
-  .prix2 span {
-    font-size: 18px !important;
-  }
-  .prix2 {
-    font-size: 22px !important;
-    margin-left: 34%;
-    margin-top: -2px !important;
-    white-space: pre;
-  }
-  .generation img {
-    height: 68px !important;
-    margin-bottom: 5px !important;
-    margin-left: -63% !important;
-  }
-  .double_phone {
-    height: 272px;
-    margin-top: 1615% !important;
-    margin-left: -578% !important;
-  }
-  .precommander {
-    font-size: 14px !important;
-    margin-left: 29%;
-    padding: 10px !important;
-    margin-top: -821% !important;
-    height: auto !important;
-    width: 156% !important;
-  }
-  .savoir_plus {
-    margin-top: -487px !important;
-    margin-left: 24px !important;
-    width: 119% !important;
-    font-size: 9px;
-    white-space: pre;
-  }
-}
-@media screen and (max-width: 301px) and (min-width: 290px) {
-  .first_section_img {
-    width: 100%;
-    height: 840px;
-  }
-  .first_section {
-    height: 840px;
-  }
-  .logo_navigation {
-    height: 79px;
-  }
-  .signature {
-    margin-left: -65%;
-    font-size: 20px !important;
-  }
-  .superĥone {
-    font-size: 19px !important;
-    white-space: pre;
-    margin-left: -24% !important;
-  }
-  .prix1 {
-    font-size: 22px !important;
-    height: 10% !important;
-    margin-top: 423px !important;
-    width: 202% !important;
-    margin-left: 22% !important;
-    white-space: pre !important;
-  }
-  .prix1 span {
-    font-size: 18px !important;
-  }
-  .prix2 span {
-    font-size: 18px !important;
-  }
-  .prix2 {
-    font-size: 22px !important;
-    margin-left: 34%;
-    margin-top: -2px !important;
-    white-space: pre;
-  }
-  .generation img {
-    height: 69px !important;
-    margin-bottom: 5px !important;
-    margin-left: -70% !important;
-  }
-  .double_phone {
-    height: 264px;
-    margin-top: 1350% !important;
-    margin-left: -576% !important;
-  }
-  .precommander {
-    font-size: 14px !important;
-    margin-left: 29%;
-    padding: 10px !important;
-    margin-top: -732% !important;
-    height: auto !important;
-    width: 165% !important;
-  }
-  .savoir_plus {
-    margin-top: -444px !important;
-    margin-left: 5px !important;
-    font-size: 9px;
-    white-space: pre;
-  }
-}
-@media screen and (max-width: 289px) and (min-width: 278px) {
-  .first_section_img {
-    width: 100%;
-    height: 840px;
-  }
-  .first_section {
-    height: 840px;
-  }
-  .logo_navigation {
-    height: 79px;
-  }
-  .signature {
-    margin-left: -65%;
-    font-size: 20px !important;
-  }
-  .superĥone {
-    font-size: 19px !important;
-    white-space: pre;
-    margin-left: -24% !important;
-  }
-  .prix1 {
-    font-size: 22px !important;
-    height: 10% !important;
-    margin-top: 423px !important;
-    width: 224% !important;
-    margin-left: -2% !important;
-    white-space: pre !important;
-  }
-  .prix1 span {
-    font-size: 18px !important;
-  }
-  .prix2 span {
-    font-size: 18px !important;
-  }
-  .prix2 {
-    font-size: 22px !important;
-    margin-left: 34%;
-    margin-left: 13%;
-    white-space: pre;
-  }
-  .generation img {
-    height: 60px !important;
-    margin-bottom: 5px !important;
-    margin-left: -70% !important;
-  }
-  .double_phone {
-    height: 252px;
-    margin-top: 1516% !important;
-    margin-left: -627% !important;
-  }
-  .precommander {
-    font-size: 14px !important;
-    margin-left: 6%;
-    padding: 10px !important;
-    width: 183% !important;
-    height: auto !important;
-    width: 178% !important;
-    margin-top: -551px;
-  }
-  .savoir_plus {
-    margin-top: -444px !important;
-    margin-left: 39px !important;
-    margin-left: 11px !important;
-    white-space: pre;
-    font-size: 10px !important;
-  }
-}
-@media screen and (max-width: 276px) {
-  .first_section_img {
-    width: 100%;
-    height: 840px;
-  }
-  .first_section {
-    height: 840px;
-  }
-  .logo_navigation {
-    height: 79px;
-  }
-  .signature {
-    margin-left: -245%;
     font-size: 17px !important;
   }
-  .superĥone {
-    font-size: 15px !important;
-    white-space: pre;
-    margin-left: -112% !important;
-  }
-  .prix1 {
-    font-size: 22px !important;
-    height: 10% !important;
-    margin-top: 423px !important;
-    width: 417% !important;
-    margin-left: -102% !important;
-    white-space: pre !important;
-  }
-  .prix1 span {
-    font-size: 18px !important;
+  .prix2 {
+    width: 100%;
+    height: auto;
+    font-size: 23px;
   }
   .prix2 span {
-    font-size: 18px !important;
+    font-size: 17px !important;
   }
-  .prix2 {
-    font-size: 22px !important;
-    margin-left: -46%;
-    margin-left: -63%;
-    white-space: pre;
-  }
-  .generation img {
-    height: 53px !important;
-    margin-bottom: 5px !important;
-    margin-left: -175% !important;
-  }
-  .double_phone {
-    height: 141px;
-    margin-top: 5786% !important;
-    margin-left: -2391% !important;
+  .first_section_img {
+    height: auto !important;
   }
   .precommander {
-    font-size: 14px !important;
-    margin-left: -26%;
-    padding: 10px !important;
-    margin-top: -544px !important;
-    width: 183% !important;
-    height: auto !important;
-    width: 291% !important;
+    margin-top: 0px;
+    width: 65%;
   }
   .savoir_plus {
-    margin-top: -407px !important;
-    margin-left: -62px !important;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 350px) {
+  .double_phone {
+    width: 100%;
+    height: auto;
+  }
+  .signature {
+    font-size: 30px;
+    text-align: center;
+  }
+  .superĥone {
+    font-size: 23px;
+    text-align: center;
+  }
+  .prix1 {
+    height: auto;
+    font-size: 23px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .prix1 span {
+    font-size: 17px !important;
+  }
+  .prix2 {
+    width: 100%;
+    height: auto;
+    font-size: 23px;
+    text-align: center;
+  }
+  .prix2 span {
+    font-size: 17px !important;
+  }
+  .first_section_img {
+    height: auto !important;
+  }
+  .precommander {
+    margin-top: 0px;
+    width: 65%;
+    margin: 0 auto;
+  }
+  .savoir_plus {
+    margin-top: 25px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 349px) {
+  .double_phone {
+    width: 100%;
+    height: auto;
+  }
+  .signature {
+    font-size: 12px;
+    text-align: center;
+  }
+  .superĥone {
+    font-size: 12px;
+    text-align: center;
+  }
+  .prix1 {
+    height: auto;
     font-size: 9px;
-    width: 269% !important;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .prix1 span {
+    font-size: 5px !important;
+  }
+  .prix2 {
+    width: 100%;
+    height: auto;
+    font-size: 9px;
+    text-align: center;
+  }
+  .prix2 span {
+    font-size: 5px !important;
+  }
+  .first_section_img {
+    height: auto !important;
+  }
+  .precommander {
+    margin-top: 0px;
+    font-size: 12px;
+    width: 65%;
+    margin: 0 auto;
+  }
+  .savoir_plus {
+    margin-top: 25px;
+    font-size: 12px;
+    text-align: center;
   }
 }
 /* section_vidéo_vues_web_et_mobile */
@@ -1826,7 +198,7 @@
     width: 110px;
   }
   .text_cards_h3 {
-    font-size: 17px;
+    font-size: 15px;
   }
   .three_section {
     height: auto;
@@ -1983,14 +355,14 @@
   .application_intelligent {
     font-size: 22px;
   }
-  #img_googlePlayBadge137350d57 {
-    height: 100px;
+  /* #img_googlePlayBadge137350d57 {
+    height: 75px;
   }
   #img_image253fcb51 {
-    margin-top: 17px;
-    height: 65px;
+    height: 49px;
+    margin-top: 14px;
     margin-left: 11px;
-  }
+  } */
 }
 @media screen and (max-width: 991px) and (min-width: 768px) {
   .une_super_app h1 {
@@ -1999,13 +371,13 @@
   .application_intelligent {
     font-size: 22px;
   }
-  #img_googlePlayBadge137350d57 {
+  /* #img_googlePlayBadge137350d57 {
     height: 100px;
   }
   #img_image253fcb51 {
     margin-top: 20px;
     height: 60px;
-  }
+  } */
 }
 @media screen and (max-width: 767px) {
   .une_super_app h1 {
@@ -2038,13 +410,13 @@
   .application_intelligent p {
     font-size: 34px;
   }
-  #img_googlePlayBadge137350d57 {
+  /* #img_googlePlayBadge137350d57 {
     height: 100px;
   }
   #img_image253fcb51 {
     margin-top: 18px;
     height: 62px;
-  }
+  } */
   .je_veux h1 {
     font-size: 38px;
   }
@@ -2062,6 +434,20 @@
   }
 }
 /* Section_Open_Market_vues_web_et_mobile */
+@media screen and (max-width: 1300px) and (min-width: 768px) {
+  .titre_un_open_market {
+    font-size: 54px;
+  }
+  .titre_deux_open_market {
+    font-size: 45px;
+  }
+  .titre_trois_open_market {
+    font-size: 50px;
+  }
+  .paragraphe_open_market {
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 767px) and (min-width: 525px) {
   .titre_un_open_market {
     font-size: 46px !important;
@@ -2092,6 +478,20 @@
   }
 }
 /* Section_Open_Food_vues_web_et_mobile */
+@media screen and (max-width: 1300px) and (min-width: 768px) {
+  .titre_trois_open_food {
+    font-size: 54px;
+  }
+  .titre_un_open_food {
+    font-size: 52px;
+  }
+  .titre_deux_open_food {
+    font-size: 42px;
+  }
+  .paragraphe_open_food {
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 767px) and (min-width: 525px) {
   .seven_section {
     background: none;
@@ -2130,11 +530,15 @@
   }
 }
 /* Section_Open_Car_vues_web_et_mobile */
+@media screen and (max-width: 1300px) and (min-width: 768px) {
+  .titre_deux_open_car {
+    font-size: 43px;
+  }
+  .paragraphe_open_car {
+    font-size: 12px;
+  }
+}
 @media screen and (max-width: 767px) and (min-width: 525px) {
-  /* .seven_section{
-    background: none;
-    height: auto;
-  } */
   .titre_un_open_event {
     font-size: 46px !important;
   }
@@ -2168,11 +572,12 @@
   }
 }
 /* Section_Open_Event_vues_web_et_mobile */
+@media screen and (max-width: 1300px) and (min-width: 768px) {
+  .paragraphe_open_event {
+    color: #fff;
+  }
+}
 @media screen and (max-width: 767px) and (min-width: 525px) {
-  /* .nine_section{
-    background: none;
-    height: auto;
-  } */
   .titre_un_open_event {
     font-size: 46px !important;
   }
@@ -2187,10 +592,6 @@
   }
 }
 @media screen and (max-width: 524px) {
-  /* .nine_section{
-    background: none;
-    height: auto;
-  } */
   .titre_un_open_event {
     font-size: 20px !important;
   }
@@ -2206,11 +607,15 @@
   }
 }
 /* Section_Open_Medecine_vues_web_et_mobile */
+@media screen and (max-width: 1300px) and (min-width: 768px) {
+  .titre_deux_open_medecine {
+    font-size: 66px;
+  }
+  .paragraphe_open_medecine {
+    font-size: 15px;
+  }
+}
 @media screen and (max-width: 767px) and (min-width: 525px) {
-  /* .nine_section{
-    background: none;
-    height: auto;
-  } */
   .titre_un_open_medecine {
     font-size: 46px !important;
   }
@@ -2250,6 +655,11 @@
   }
 }
 /* Section_Open_Assistant_vues_web_et_mobile */
+@media screen and (max-width: 1300px) and (min-width: 768px) {
+  .titre_deux_open_assistant {
+    font-size: 51px;
+  }
+}
 @media screen and (max-width: 767px) and (min-width: 525px) {
   .titre_un_open_assistant {
     font-size: 46px !important;
@@ -2318,9 +728,9 @@
     padding-top: 8px !important;
     padding-left: 5px !important;
     font-size: 18px !important;
-    width: 50%;
+    width: 45%;
     height: 47px;
-    margin-left: -28px !important;
+    margin-left: -13px !important;
   }
   .prix_de_chaussure_bleu span {
     font-size: 11px !important;
@@ -2328,6 +738,15 @@
   .prix_de_chaussure_vert {
     font-size: 19px !important;
     height: 50px !important;
+  }
+  .trois_ratation_un {
+    width: 0;
+    position: absolute;
+    transform: rotate(15deg);
+    color: #80808024;
+    font-size: 230px;
+    font-family: gotham_black;
+    font-family: "gotham_black";
   }
 }
 @media screen and (max-width: 767px) and (min-width: 525px) {
@@ -2338,7 +757,6 @@
     font-size: 100px;
     margin-top: -90px;
     font-family: gotham_black;
-    /* height: 643px; */
     font-family: "gotham_black";
   }
   .titre_un_open_pay {
@@ -2444,7 +862,25 @@
     height: 50px !important;
   }
 }
-/* Deuxieme_section_Open_Pay_vues_web_et_mobile */
+/* Deuxieme_section_Open_Pay_Deux_vues_web_et_mobile */
+@media screen and (max-width: 1300px) and (min-width: 768px) {
+  .titre_un_open_pay_deux {
+    font-size: 23px;
+  }
+  .titre_deux_open_pay_deux {
+    font-size: 47px;
+  }
+  .paragraphe_un_open_pay_deux {
+    font-size: 14px;
+  }
+  /* #img_googlePlayBadge137350d57 {
+    height: 80px;
+  }
+  #img_image253fcb51 {
+    height: 51px;
+    margin-top: 14px;
+  } */
+}
 @media screen and (max-width: 767px) and (min-width: 525px) {
   #img_open_pay_deux {
     margin-top: 100px;
@@ -2488,6 +924,11 @@
   }
 }
 /* Deuxieme_section_debut_Open_Game_vues_web_et_mobile */
+@media screen and (max-width: 1300px) and (min-width: 768px) {
+  .titre_deux_debut_open_game {
+    font-size: 51px;
+  }
+}
 @media screen and (max-width: 767px) and (min-width: 525px) {
   .paragraphe_un_debut_open_game {
     display: none;
@@ -2537,7 +978,6 @@
     color: rgba(0, 9, 64, 1);
     font-size: 27px;
     font-family: gotham_ultraitalic, Arial;
-    margin-top: 14px;
   }
   .paragraphe_deux_debut_open_game {
     width: 100%;
@@ -2588,6 +1028,11 @@
   }
 }
 /* Deuxieme_section_Open_Game_Studio_vues_web_et_mobile */
+@media screen and (max-width: 1300px) and (min-width: 768px) {
+  .img_trois_open_game_studio_deux {
+    display: none;
+  }
+}
 @media screen and (max-width: 767px) and (min-width: 525px) {
   .img_open_game_studio_deux {
     margin-top: 0px;
@@ -2605,6 +1050,12 @@
   }
 }
 /* section_debut_Open_Casino_vues_web_et_mobile */
+@media screen and (max-width: 1300px) and (min-width: 768px) {
+  .dix_sept_section {
+    height: auto;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 767px) and (min-width: 525px) {
   .titre_open_casion {
     font-size: 35px;
@@ -2636,6 +1087,30 @@
   }
 }
 /* section_Open_Smart_vues_web_et_mobile */
+@media screen and (max-width: 1300px) and (min-width: 768px) {
+  .paragraphe_deux_open_smart {
+    display: none;
+  }
+  .titre_un_open_smart {
+    font-size: 41px;
+  }
+  .titre_un_open_smart span {
+    font-size: 47px;
+  }
+  .titre_deux_open_smart {
+    font-size: 47px;
+  }
+  .paragraphe_un_open_smart {
+    font-size: 12px;
+  }
+  #img_googlePlayBadge137350d57 {
+    height: 65px;
+  }
+  #img_image253fcb51 {
+    height: 40px;
+    margin-top: 12px;
+  }
+}
 @media screen and (max-width: 767px) and (min-width: 525px) {
   .titre_un_open_smart {
     font-size: 29px;
@@ -2671,6 +1146,17 @@
   }
 }
 /* section_Open_chat_vues_web_et_mobile */
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  .titre_open_chat {
+    font-size: 27px;
+  }
+  .titre_open_chat span {
+    font-size: 42px;
+  }
+  .paragraphe_open_chat {
+    font-size: 13px;
+  }
+}
 @media screen and (max-width: 767px) and (min-width: 525px) {
   .dix_neuf_section {
     padding: 0px;
@@ -2703,7 +1189,15 @@
     width: 100%;
   }
 }
-/* section_Open_chat_vues_web_et_mobile */
+/* section_Open_chat_Deux_vues_web_et_mobile */
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  .titre_un_open_chat_deux {
+    font-size: 33px;
+  }
+  .titre_deux_open_chat_deux {
+    font-size: 38px;
+  }
+}
 @media screen and (max-width: 767px) and (min-width: 525px) {
   .titre_un_open_chat_deux {
     font-size: 24px;
@@ -2726,7 +1220,18 @@
     font-size: 12px;
   }
 }
-/* section_Open_chat_Deux_vues_web_et_mobile */
+/* section_Section_social_Media_vues_web_et_mobile */
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  .titre_un_social_media {
+    font-size: 28px;
+  }
+  .titre_deux_social_media {
+    font-size: 38px;
+  }
+  .paragraphe_social_media {
+    font-size: 11px;
+  }
+}
 @media screen and (max-width: 767px) and (min-width: 525px) {
   .img_social_media {
     margin-top: 20px;
@@ -2751,12 +1256,17 @@
     font-size: 26px;
   }
 }
-/* section_Open_chat_Deux_vues_web_et_mobile */
+/* section_Open_Generation_Deux_vues_web_et_mobile */
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  .titre_un_open_generation_deux {
+    font-size: 63px;
+  }
+}
 @media screen and (max-width: 767px) and (min-width: 525px) {
   .titre_un_open_generation_deux {
     font-size: 34px;
   }
-  .titre_un_open_generation_deux span{
+  .titre_un_open_generation_deux span {
     height: 50px;
   }
   .titre_deux_open_generation_deux {
@@ -2767,10 +1277,196 @@
   .titre_un_open_generation_deux {
     font-size: 34px;
   }
-  .titre_un_open_generation_deux span{
+  .titre_un_open_generation_deux span {
     height: 50px;
   }
   .titre_deux_open_generation_deux {
     font-size: 35px;
   }
+}
+/* Section_coleur_du_Smartphone_vues_web_et_mobile */
+@media screen and (max-width: 1741px) and (min-width: 1639px) {
+  .img_coleur_du_smartphone {
+    width: 806.45px;
+    height: 1044.95px;
+    margin-top: -137px;
+  }
+  .titre_coleur_du_smartphone img {
+    width: 43%;
+    height: auto;
+    margin-top: -33px;
+  }
+  .titre_coleur_du_smartphone span {
+    font-size: 86px;
+  }
+  #cercle_un_coleur_du_smartphone {
+    font-size: 40px;
+  }
+  #cercle_deux_coleur_du_smartphone {
+    font-size: 39px;
+  }
+  #cercle_trois_coleur_du_smartphone {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 1638px) and (min-width: 768px) {
+  .img_coleur_du_smartphone {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+  }
+  .vingt_trois_section {
+    margin-top: 10%;
+    margin-bottom: 3%;
+    height: 837px;
+    width: 100%;
+    background: rgba(0, 0, 0, 1);
+  }
+  .titre_coleur_du_smartphone img {
+    width: 43%;
+    height: auto;
+    margin-top: -33px;
+  }
+  .titre_coleur_du_smartphone span {
+    font-size: 86px;
+  }
+  #cercle_un_coleur_du_smartphone {
+    font-size: 40px;
+  }
+  #cercle_deux_coleur_du_smartphone {
+    font-size: 39px;
+  }
+  #cercle_trois_coleur_du_smartphone {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 525px) {
+  .titre_coleur_du_smartphone span {
+    font-size: 101px;
+  }
+  .vingt_trois_section {
+    height: auto;
+    width: 100%;
+  }
+  #cercle_un_coleur_du_smartphone {
+    font-size: 50px;
+    margin-top: 33px;
+  }
+  #cercle_deux_coleur_du_smartphone {
+    font-size: 29px;
+  }
+  #cercle_trois_coleur_du_smartphone {
+    font-size: 32px;
+  }
+  .img_coleur_du_smartphone {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+  }
+  .lien_coleur_du_smartphone {
+    padding: 8px;
+    font-size: 17px;
+    padding-bottom: 0px;
+  }
+}
+@media screen and (max-width: 524px) {
+  .titre_coleur_du_smartphone span {
+    font-size: 101px;
+  }
+  .vingt_trois_section {
+    height: auto;
+    width: 100%;
+  }
+  #cercle_un_coleur_du_smartphone {
+    font-size: 29px;
+    margin-top: 50px;
+  }
+  #cercle_deux_coleur_du_smartphone {
+    font-size: 29px;
+    margin-left: -16px;
+    white-space: break-spaces;
+  }
+  #cercle_trois_coleur_du_smartphone {
+    font-size: 32px;
+    white-space: break-spaces;
+  }
+  .img_coleur_du_smartphone {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  .lien_coleur_du_smartphone {
+    padding: 8px;
+    font-size: 17px;
+    padding-bottom: 0px;
+  }
+}
+/* Section_Open_Generation_Deux_vues_web_et_mobile */
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  .titre_deux_open_generation_deux {
+    font-size: 51px;
+  }
+}
+/* Section_Open_Generation_Trois_vues_web_et_mobile */
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .titre_deux_Open_Generation_Trois {
+    font-size: 39px;
+  }
+  .titre_trois_Open_Generation_Trois {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .titre_deux_Open_Generation_Trois {
+    font-size: 29px;
+  }
+  .titre_trois_Open_Generation_Trois {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 525px) {
+  .titre_deux_Open_Generation_Trois {
+    font-size: 29px;
+    text-align: center;
+  }
+  .titre_trois_Open_Generation_Trois {
+    font-size: 36px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 524px) {
+  .titre_deux_Open_Generation_Trois {
+    font-size: 25px;
+  }
+  .titre_trois_Open_Generation_Trois {
+    font-size: 38px;
+  }
+}
+/* Section_Questions_Frequentes_vues_web_et_mobile */
+@media screen and (max-width: 524px) {
+  .titre_questions_frequentes {
+    font-size: 20px;
+    margin-top: 65px;
+    text-align: center;
+  }
+}
+/* Section_footer_du_site_vues_web_et_mobile */
+@media screen and (max-width: 767px) and (min-width: 525px) {
+}
+@media screen and (max-width: 524px) {
+  .titre_un_footer_du_site {
+    font-size: 19px;
+    margin-top: 68px;
+  }
+  .paragraphe_un_footer_du_site {
+    font-size: 13px;
+  }
+  .titre_deux_footer_du_site {
+    font-size: 13px;
+  }
+  /* .paragraphe_deux_footer_du_site {
+    font-size: 11px;
+  } */
 }
