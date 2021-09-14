@@ -410,13 +410,6 @@
   .application_intelligent p {
     font-size: 34px;
   }
-  /* #img_googlePlayBadge137350d57 {
-    height: 100px;
-  }
-  #img_image253fcb51 {
-    margin-top: 18px;
-    height: 62px;
-  } */
   .je_veux h1 {
     font-size: 38px;
   }
@@ -873,13 +866,6 @@
   .paragraphe_un_open_pay_deux {
     font-size: 14px;
   }
-  /* #img_googlePlayBadge137350d57 {
-    height: 80px;
-  }
-  #img_image253fcb51 {
-    height: 51px;
-    margin-top: 14px;
-  } */
 }
 @media screen and (max-width: 767px) and (min-width: 525px) {
   #img_open_pay_deux {
