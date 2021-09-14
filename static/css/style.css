@@ -668,7 +668,7 @@ body {
 .titre_un_open_pay_deux {
   margin-top: 100px;
   font-family: leaguegothic_regular, Arial;
-  font-size: 30px;
+  font-size: 25px;
   color: rgba(128, 128, 128, 1);
   font-weight: 400;
   width: 100%;
@@ -677,7 +677,7 @@ body {
   font-family: gotham_ultraitalic, Arial;
   color: rgba(0, 112, 192, 1);
   width: 100%;
-  font-size: 58px;
+  font-size: 40px;
   font-weight: 400;
 }
 .titre_trois_open_pay_deux {
@@ -834,7 +834,7 @@ body {
   font-family: gotham_book, Arial;
 }
 .dix_sept_section {
-  height: 550px;
+  height: 600px;
   width: 100%;
   background: rgba(0, 18, 35, 1);
 }
@@ -846,20 +846,20 @@ body {
 }
 .titre_un_open_smart {
   color: rgba(128, 128, 128, 1);
-  font-size: 53px;
+  font-size: 50px;
   margin-top: 20px;
   font-family: leaguegothic_regular, Arial;
 }
 .titre_un_open_smart span {
   color: rgba(35, 112, 175, 1);
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 400;
   font-style: italic;
   font-family: gotham_ultraitalic, Arial;
 }
 .titre_deux_open_smart {
   color: rgba(0, 0, 0, 1);
-  font-size: 83px;
+  font-size: 50px;
   font-weight: 400;
   font-style: italic;
   font-family: gotham_ultraitalic, Arial;
