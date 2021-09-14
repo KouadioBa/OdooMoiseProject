@@ -8,47 +8,47 @@ body {
 }
 @font-face {
   font-family: gotham_black;
-  src: url(/open_moise/static/images/Gotham-Black.otf);
+  src: url(/OdooMoiseProject/static/images/Gotham-Black.otf);
 }
 
 @font-face {
   font-family: gotham_light;
-  src: url(/open_moise/static/images/GothamLight.ttf);
+  src: url(/OdooMoiseProject/static/images/GothamLight.ttf);
 }
 
 @font-face {
   font-family: gotham_ultraitalic;
-  src: url(/open_moise/static/images/Gotham-UltraItalic.otf);
+  src: url(/OdooMoiseProject/static/images/Gotham-UltraItalic.otf);
 }
 
 @font-face {
   font-family: gotham_medium;
-  src: url(/open_moise/static/images/GothamMedium.ttf);
+  src: url(/OdooMoiseProject/static/images/GothamMedium.ttf);
 }
 
 @font-face {
   font-family: leaguegothic_regular;
-  src: url(/open_moise/static/images/Signatie.ttf);
+  src: url(/OdooMoiseProject/static/images/Signatie.ttf);
 }
 
 @font-face {
   font-family: signatie_regular;
-  src: url(/open_moise/static/images/Signatie.ttf);
+  src: url(/OdooMoiseProject/static/images/Signatie.ttf);
 }
 
 @font-face {
   font-family: gotham_bold;
-  src: url(/open_moise/static/images/Gotham-Bold.otf);
+  src: url(/OdooMoiseProject/static/images/Gotham-Bold.otf);
 }
 
 @font-face {
   font-family: gotham_book;
-  src: url(/open_moise/static/images/GothamBook.ttf);
+  src: url(/OdooMoiseProject/static/images/GothamBook.ttf);
 }
 
 @font-face {
   font-family: gotham_thin;
-  src: url(/open_moise/static/images/Gotham-Thin.otf);
+  src: url(/OdooMoiseProject/static/images/Gotham-Thin.otf);
 }
 /* bar_de_navigation_du_site_web */
 #liens_bar_navigation {
@@ -80,7 +80,7 @@ body {
       rgba(0, 0, 0, 0.781),
       rgba(8, 8, 8, 0.719)
     ),
-    url("/open_moise/static/images/cheering1031743.png");
+    url("/OdooMoiseProject/static/images/cheering1031743.png");
   height: 630px;
   width: 100%;
   background-size: cover;
@@ -243,7 +243,7 @@ body {
 }
 .four_section_img {
   background: linear-gradient(rgb(255 252 253 / 1), rgba(250, 246, 246, 0.1)),
-    url(/open_moise/static/images/femme.png);
+    url(/OdooMoiseProject/static/images/femme.png);
   background-size: cover;
 }
 /* section_1_super_app  */
@@ -252,7 +252,7 @@ body {
   height: 1400px;
   width: 100%;
   background: linear-gradient(rgb(232 224 224 / 4%), rgb(250 249 249 / 84%)),
-    url(/open_moise/static/images/fadeCoverf6043501.png);
+    url(/OdooMoiseProject/static/images/fadeCoverf6043501.png);
   background-size: cover;
 }
 .div_section {
@@ -304,7 +304,7 @@ body {
   height: auto;
   width: 100%;
   background: linear-gradient(67deg, #f7f9fa 45%, #ffffff00),
-    url(/open_moise/static/images/x78a1f958B2cf4d3eA850F9f8bce473ddf968dd46.png);
+    url(/OdooMoiseProject/static/images/x78a1f958B2cf4d3eA850F9f8bce473ddf968dd46.png);
   background-size: cover;
 }
 #img_open_market {
@@ -344,7 +344,7 @@ body {
   height: 800px;
   width: 100%;
   background: linear-gradient(279deg, #f7f9fa 45%, #ffffff00),
-    url(/open_moise/static/images/x78a1f958B2cf4d3eA850F9f8bce473dd5c4278f9.png);
+    url(/OdooMoiseProject/static/images/x78a1f958B2cf4d3eA850F9f8bce473dd5c4278f9.png);
   background-size: cover;
 }
 .titre_un_open_food {
@@ -398,14 +398,14 @@ body {
   height: auto;
   width: 100%;
   background: linear-gradient(67deg, #f7f9fa 45%, #ffffff00),
-    url(/open_moise/static/images/x78a1f958B2cf4d3eA850F9f8bce473ddf642fbb5.png);
+    url(/OdooMoiseProject/static/images/x78a1f958B2cf4d3eA850F9f8bce473ddf642fbb5.png);
   background-size: cover;
 }
 /* Section_Open_Event */
 .nine_section {
   height: auto;
   width: 100%;
-  background: url(/open_moise/static/images/ksBloomConcert0022.png);
+  background: url(/OdooMoiseProject/static/images/ksBloomConcert0022.png);
   background-size: cover;
 }
 #img_open_Event {
@@ -459,7 +459,7 @@ body {
   height: auto;
   width: 100%;
   background: linear-gradient(101deg, #f7f9fa 45%, #ffffff17),
-    url(/open_moise/static/images/x78a1f958B2cf4d3eA850F9f8bce473dd11e5c0ec.png);
+    url(/OdooMoiseProject/static/images/x78a1f958B2cf4d3eA850F9f8bce473dd11e5c0ec.png);
   background-size: cover;
 }
 /* Section_Open_Assistant */
@@ -467,7 +467,7 @@ body {
   height: auto;
   width: 100%;
   background: linear-gradient(#f9f9f900, #f9f9f9d1),
-    url(/open_moise/static/images/bg3af6af43.png);
+    url(/OdooMoiseProject/static/images/bg3af6af43.png);
   background-size: cover;
 }
 #img_open_assistant {
@@ -718,7 +718,7 @@ body {
 .quatorze_section {
   height: auto;
   width: 100%;
-  background: url("/open_moise/static/images/missionsImage.png");
+  background: url("/OdooMoiseProject/static/images/missionsImage.png");
   background-size: cover;
 }
 .paragraphe_un_debut_open_game {
@@ -800,7 +800,7 @@ body {
 /* Section_Open_Game_Studio_deux */
 .img_trois_open_game_studio_deux {
   background: linear-gradient(to bottom, #f9f9f900, #000000),
-    url("/open_moise/static/images/jdh.png");
+    url("/OdooMoiseProject/static/images/jdh.png");
   background-size: cover;
   height: 658px;
   margin-top: 95px;
@@ -951,7 +951,7 @@ body {
   height: auto;
   width: 100%;
   background: linear-gradient(to left, #f9f9f97a, #f9f9f930),
-    url(/open_moise/static/images/addContact.png);
+    url(/OdooMoiseProject/static/images/addContact.png);
   background-size: cover;
 }
 /* Section_social_Media */
@@ -1179,7 +1179,7 @@ body {
   height: auto;
   width: 100%;
   background: linear-gradient(to bottom, #04000000, #000000f2),
-    url("/open_moise/static/images/openGenerationSideView.png");
+    url("/OdooMoiseProject/static/images/openGenerationSideView.png");
   background-size: cover;
 }
 .titre_questions_frequentes {

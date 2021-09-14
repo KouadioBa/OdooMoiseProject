@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "open_moise",
+    'name': "Open Moise",
     'summary': """
         Welcome to Open Moise""",
     'description': """
