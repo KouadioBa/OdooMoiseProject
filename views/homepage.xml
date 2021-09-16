@@ -135,12 +135,21 @@
                   </div>
                 </section>
                 <!-- section_vidéo_open -->
-                <section id="demo">
-                  <div class="image2_back">
-                    <iframe id="iframee" width="100%" height="600px" src="https://www.youtube.com/embed/cnXapYkboRQ"
-                      title="YouTube video player" frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                <section style="padding-top:7px;background: linear-gradient( to bottom, rgb(0 0 0 / 91%), rgb(0 0 0) );">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h1 id="titre_section_video">Veuillez suivre la vidéo <i class="bi bi-arrow-right"></i></h1>
+                      </div>
+                      <div class="col-md-6">
+                        <div>
+                          <iframe id="iframee" width="100%" height="auto" src="https://www.youtube.com/embed/cnXapYkboRQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </section>
                 <!-- section_5_révolution_en_un_open -->

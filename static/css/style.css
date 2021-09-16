@@ -71,17 +71,19 @@ body {
 }
 /* first_section */
 .first_section {
-  height: auto !important;
+  height: 90vh !important;
   width: 100% !important;
 }
 .first_section_img {
+  display: flex !important;
+  align-items: center !important;
   background: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.781),
       rgba(8, 8, 8, 0.719)
     ),
     url("/OdooMoiseProject/static/images/cheering1031743.png");
-  height: 630px;
+  height: 100%;
   width: 100%;
   background-size: cover;
   padding: 60px;
@@ -136,9 +138,11 @@ body {
 .savoir_plus i {
   font-family: gotham_bold;
 }
-/* two_section */
-.image2_back {
-  height: 600px;
+/* section_video */
+#titre_section_video {
+  padding-top: 150px;
+  font-family: leaguegothic_regular;
+  font-size: 40px;color: #fff;
 }
 /* three_section */
 .card_revolution {

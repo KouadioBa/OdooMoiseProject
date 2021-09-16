@@ -67,9 +67,6 @@
   .prix2 span {
     font-size: 17px !important;
   }
-  .first_section_img {
-    height: auto !important;
-  }
   .precommander {
     margin-top: 0px;
     width: 65%;
@@ -79,6 +76,9 @@
   }
 }
 @media screen and (max-width: 767px) and (min-width: 350px) {
+  .first_section{
+    height: auto !important;
+  }
   .double_phone {
     width: 100%;
     height: auto;
@@ -109,9 +109,6 @@
   .prix2 span {
     font-size: 17px !important;
   }
-  .first_section_img {
-    height: auto !important;
-  }
   .precommander {
     margin-top: 0px;
     width: 65%;
@@ -123,6 +120,9 @@
   }
 }
 @media screen and (max-width: 349px) {
+  .first_section{
+    height: auto !important;
+  }
   .double_phone {
     width: 100%;
     height: auto;
@@ -153,9 +153,6 @@
   .prix2 span {
     font-size: 5px !important;
   }
-  .first_section_img {
-    height: auto !important;
-  }
   .precommander {
     margin-top: 0px;
     font-size: 12px;
@@ -170,19 +167,26 @@
 }
 /* section_vidéo_vues_web_et_mobile */
 @media screen and (max-width: 1999px) and (min-width: 576px) {
-  .image2_back {
-    height: 400px;
-  }
   #iframee {
     height: 400px;
   }
 }
-@media screen and (max-width: 575px) {
-  .image2_back {
-    height: 200px;
+@media screen and (max-width: 767px) {
+  #titre_section_video{
+    padding-top: 0px !important;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
   }
+  #titre_section_video i{
+    display: none;
+  }
+}
+@media screen and (max-width: 575px) {
   #iframee {
-    height: 200px;
+    height: auto;
+    width: 100% !important;
   }
 }
 /* section_5_révolution_en_un_vues_web_et_mobile */
