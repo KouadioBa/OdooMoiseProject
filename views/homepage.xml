@@ -30,7 +30,7 @@
     </template>
 
     <record id="homepage_view_1" model="ir.ui.view">
-      <field name="name">Open Moise</field>
+      <field name="name">Open Moise</field> 
       <field name="type">qweb</field>
       <field name="key">website.homepage1</field>
       <field name="mode">primary</field>
